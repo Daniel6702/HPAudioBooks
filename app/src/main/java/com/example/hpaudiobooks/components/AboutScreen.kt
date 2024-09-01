@@ -62,7 +62,7 @@ fun AboutScreen(navController: NavController) {
                 style = MaterialTheme.typography.bodyMedium,
                 color = Color.Blue,
                 modifier = Modifier.clickable {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.buymeacoffee.com"))
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://buymeacoffee.com/daniel6702"))
                     context.startActivity(intent)
                 }
             )
