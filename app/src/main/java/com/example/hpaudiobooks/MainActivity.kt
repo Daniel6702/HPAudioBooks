@@ -6,7 +6,11 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
@@ -14,6 +18,8 @@ import com.example.hpaudiobooks.components.BookList
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.example.hpaudiobooks.components.AboutScreen
+import com.example.hpaudiobooks.components.HomeScreen
 import com.example.hpaudiobooks.components.media.player.MediaPlayerScreen
 import com.example.hpaudiobooks.components.loadBooks
 import com.example.hpaudiobooks.models.AudioBook
@@ -30,80 +36,78 @@ class MainActivity : ComponentActivity() {
                 audioBooks.addAll(loadedBooks)
             }
 
-            NavHost(navController = navController, startDestination = "book_list") {
-                composable("book_list") {
-                    BookList(books = audioBooks, navController = navController)
-                }
-                composable(
-                    "media_player/{chapterPath}?autoPlay={autoPlay}&resume={resume}",
-                    arguments = listOf(
-                        navArgument("autoPlay") { defaultValue = "false" },
-                        navArgument("resume") { defaultValue = "false" }
-                    )
-                ) { backStackEntry ->
-                    val encodedChapterPath = backStackEntry.arguments?.getString("chapterPath") ?: ""
-                    val chapterPath = Uri.decode(encodedChapterPath)
-                    val autoPlay = backStackEntry.arguments?.getString("autoPlay")?.toBoolean() ?: false
-                    val resume = backStackEntry.arguments?.getString("resume")?.toBoolean() ?: false
+            Surface(
+                modifier = Modifier.fillMaxSize(),
+                color = MaterialTheme.colorScheme.secondary // Use primary color as background
+            ) {
+                NavHost(navController = navController, startDestination = "home_screen") {
+                    composable("home_screen") {
+                        HomeScreen(navController = navController, audioBooks = audioBooks)
+                    }
+                    composable("about_screen") {
+                        AboutScreen(navController = navController)
+                    }
+                    composable(
+                        "media_player/{chapterPath}?autoPlay={autoPlay}&resume={resume}",
+                        arguments = listOf(
+                            navArgument("autoPlay") { defaultValue = "false" },
+                            navArgument("resume") { defaultValue = "false" }
+                        )
+                    ) { backStackEntry ->
+                        val encodedChapterPath = backStackEntry.arguments?.getString("chapterPath") ?: ""
+                        val chapterPath = Uri.decode(encodedChapterPath)
+                        val autoPlay = backStackEntry.arguments?.getString("autoPlay")?.toBoolean() ?: false
+                        val resume = backStackEntry.arguments?.getString("resume")?.toBoolean() ?: false
 
-                    val sharedPreferences = LocalContext.current.getSharedPreferences("audiobook_prefs", Context.MODE_PRIVATE)
+                        val sharedPreferences = LocalContext.current.getSharedPreferences("audiobook_prefs", Context.MODE_PRIVATE)
 
-                    val audioBook = audioBooks.find { it.chapters.any { chapter -> chapter.path == chapterPath } }
+                        val audioBook = audioBooks.find { it.chapters.any { chapter -> chapter.path == chapterPath } }
 
-                    if (resume) {
-                        Log.d("MainActivity", "Trying to resume playback")
+                        if (resume) {
+                            val lastChapterPath = sharedPreferences.getString("${audioBook?.bookData?.name}_last_chapter", null)
 
-                        // Retrieve the last saved chapter and position
-                        val lastChapterPath = sharedPreferences.getString("${audioBook?.bookData?.name}_last_chapter", null)
+                            if (audioBook != null && lastChapterPath != null) {
+                                val lastChapter = audioBook.chapters.find { it.path == lastChapterPath }
+                                if (lastChapter != null) {
+                                    val lastChapterIndex = audioBook.chapters.indexOf(lastChapter)
+                                    val resumePosition = sharedPreferences.getInt("${audioBook.bookData.name}_last_position", 0)
 
-                        if (audioBook != null && lastChapterPath != null) {
-                            val lastChapter = audioBook.chapters.find { it.path == lastChapterPath }
-                            if (lastChapter != null) {
-                                val lastChapterIndex = audioBook.chapters.indexOf(lastChapter)
-                                val resumePosition = sharedPreferences.getInt("${audioBook.bookData.name}_last_position", 0)
-
-                                Log.d("MainActivity", "Resuming from chapter: ${lastChapter.path} at position: $resumePosition")
-
-                                MediaPlayerScreen(
-                                    bookName = audioBook.bookData.name,
-                                    chapterTitle = lastChapter.title,
-                                    audioFilePath = lastChapter.path,
-                                    onBack = { navController.popBackStack() },
-                                    chapters = audioBook.chapters,
-                                    currentChapterIndex = lastChapterIndex,
-                                    navController = navController,
-                                    autoPlay = autoPlay,
-                                    resumePosition = resumePosition,  // Resume from the last position,
-                                    coverImageId = audioBook.coverImageId
-                                )
+                                    MediaPlayerScreen(
+                                        bookName = audioBook.bookData.name,
+                                        chapterTitle = lastChapter.title,
+                                        audioFilePath = lastChapter.path,
+                                        onBack = { navController.popBackStack() },
+                                        chapters = audioBook.chapters,
+                                        currentChapterIndex = lastChapterIndex,
+                                        navController = navController,
+                                        autoPlay = autoPlay,
+                                        resumePosition = resumePosition,
+                                        coverImageId = audioBook.coverImageId
+                                    )
+                                } else {
+                                    loadFirstChapter(audioBook, navController, autoPlay)
+                                }
                             } else {
-                                Log.e("BookLoading", "Could not find chapter for path: $lastChapterPath")
-                                // Fallback to first chapter if the last chapter is not found
                                 loadFirstChapter(audioBook, navController, autoPlay)
                             }
                         } else {
-                            Log.d("MainActivity", "No saved state found, starting from the first chapter")
-                            // No saved state, start from the first chapter
-                            loadFirstChapter(audioBook, navController, autoPlay)
-                        }
-                    } else {
-                        Log.d("MainActivity", "Regular navigation without resuming")
-                        val currentChapter = audioBook?.chapters?.find { it.path == chapterPath }
+                            val currentChapter = audioBook?.chapters?.find { it.path == chapterPath }
 
-                        if (audioBook != null && currentChapter != null) {
-                            val currentChapterIndex = audioBook.chapters.indexOf(currentChapter)
-                            MediaPlayerScreen(
-                                bookName = audioBook.bookData.name,
-                                chapterTitle = currentChapter.title,
-                                audioFilePath = currentChapter.path,
-                                onBack = { navController.popBackStack() },
-                                chapters = audioBook.chapters,
-                                currentChapterIndex = currentChapterIndex,
-                                navController = navController,
-                                autoPlay = autoPlay,
-                                resumePosition = 0,  // Start from the beginning of the chapter
-                                coverImageId = audioBook.coverImageId
-                            )
+                            if (audioBook != null && currentChapter != null) {
+                                val currentChapterIndex = audioBook.chapters.indexOf(currentChapter)
+                                MediaPlayerScreen(
+                                    bookName = audioBook.bookData.name,
+                                    chapterTitle = currentChapter.title,
+                                    audioFilePath = currentChapter.path,
+                                    onBack = { navController.popBackStack() },
+                                    chapters = audioBook.chapters,
+                                    currentChapterIndex = currentChapterIndex,
+                                    navController = navController,
+                                    autoPlay = autoPlay,
+                                    resumePosition = 0,
+                                    coverImageId = audioBook.coverImageId
+                                )
+                            }
                         }
                     }
                 }
@@ -125,11 +129,12 @@ class MainActivity : ComponentActivity() {
                 currentChapterIndex = firstChapterIndex,
                 navController = navController,
                 autoPlay = autoPlay,
-                resumePosition = 0,  // Start from the beginning of the first chapter
+                resumePosition = 0,
                 coverImageId = audioBook.coverImageId
             )
         }
     }
 }
+
 
 

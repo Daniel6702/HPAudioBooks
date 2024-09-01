@@ -43,7 +43,7 @@ fun MediaPlayerScreen(
     var playbackSpeed by remember { mutableStateOf(1.0f) }  // Default speed is 1x
     var sleepTimerJob by remember { mutableStateOf<Job?>(null) } // Track the sleep timer job
 
-    DisposableEffect(Unit) {
+    DisposableEffect(audioFilePath) {
         mediaPlayer = MediaPlayer().apply {
             try {
                 val assetFileDescriptor = context.assets.openFd(audioFilePath)
@@ -52,23 +52,29 @@ fun MediaPlayerScreen(
                     assetFileDescriptor.startOffset,
                     assetFileDescriptor.length
                 )
-                prepare()
-                totalDuration = duration
+                prepare()  // Prepare the media player
 
+                totalDuration = duration
                 playbackParams = playbackParams.setSpeed(playbackSpeed)
 
-                if (autoPlay || resumePosition > 0) {
-                    seekTo(resumePosition)
-                    if (autoPlay) {
-                        start()
-                    }
+                Log.d("MediaPlayer", "autoPlay: $autoPlay isPlaying: $isPlaying resumePosition: $resumePosition")
+                if (resumePosition > 0) {
+                    seekTo(resumePosition)  // Seek to the resume position
+                }
+
+                if (autoPlay) {
+                    isPlaying = true
+                    start()  // Start playback if autoPlay is true
+                } else {
+                    pause()  // Ensure it's paused if autoPlay is false
                 }
 
                 setOnCompletionListener {
+                    Log.d("MediaPlayer", "Playback completed")
                     if (selectedChapterIndex < chapters.size - 1) {
                         val nextChapter = chapters[selectedChapterIndex + 1]
                         val encodedPath = Uri.encode(nextChapter.path)
-                        navController.navigate("media_player/$encodedPath?autoPlay=true&resume=false")
+                        navController.navigate("media_player/$encodedPath?autoPlay=$isPlaying&resume=false")
                     } else {
                         isPlaying = false
                     }
@@ -104,7 +110,8 @@ fun MediaPlayerScreen(
             .fillMaxSize()
             .padding(16.dp),
     ) {
-        TopAppBarWithBackButton(onBack = { navController.navigate("book_list") { popUpTo("book_list") { inclusive = true } } })
+        TopAppBarWithBackButton(navController = navController)
+
 
         Spacer(modifier = Modifier.height(8.dp))
 
@@ -123,7 +130,7 @@ fun MediaPlayerScreen(
             onChapterSelected = { index ->
                 selectedChapterIndex = index
                 val encodedPath = Uri.encode(chapters[index].path)
-                navController.navigate("media_player/$encodedPath?autoPlay=false&resume=false")
+                navController.navigate("media_player/$encodedPath?autoPlay=$isPlaying&resume=false")
             }
         )
 
@@ -147,6 +154,7 @@ fun MediaPlayerScreen(
                     mediaPlayer?.start()
                     true
                 }
+                Log.d("MediaPlayer", "isPlaying: $isPlaying")
             },
             onRewind = { mediaPlayer?.seekTo((mediaPlayer?.currentPosition ?: 0) - 15000) },
             onFastForward = { mediaPlayer?.seekTo((mediaPlayer?.currentPosition ?: 0) + 15000) },
@@ -212,4 +220,5 @@ fun MediaPlayerScreen(
         }
     }
 }
+
 
