@@ -14,7 +14,7 @@ import com.example.hpaudiobooks.components.BookList
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.hpaudiobooks.components.MediaPlayerScreen
+import com.example.hpaudiobooks.components.media.player.MediaPlayerScreen
 import com.example.hpaudiobooks.components.loadBooks
 import com.example.hpaudiobooks.models.AudioBook
 
