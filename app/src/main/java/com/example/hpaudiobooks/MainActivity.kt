@@ -3,7 +3,6 @@ package com.example.hpaudiobooks
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,14 +13,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.hpaudiobooks.components.BookList
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.hpaudiobooks.components.AboutScreen
-import com.example.hpaudiobooks.components.HomeScreen
-import com.example.hpaudiobooks.components.media.player.MediaPlayerScreen
-import com.example.hpaudiobooks.components.loadBooks
+import com.example.hpaudiobooks.about.AboutScreen
+import com.example.hpaudiobooks.home.HomeScreen
+import com.example.hpaudiobooks.media.MediaPlayerScreen
+import com.example.hpaudiobooks.utils.loadBooks
 import com.example.hpaudiobooks.models.AudioBook
 
 class MainActivity : ComponentActivity() {

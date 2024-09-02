@@ -1,6 +1,5 @@
-package com.example.hpaudiobooks.components
+package com.example.hpaudiobooks.home
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

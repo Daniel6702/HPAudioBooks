@@ -1,4 +1,4 @@
-package com.example.hpaudiobooks.components
+package com.example.hpaudiobooks.about
 
 import android.content.Intent
 import android.net.Uri

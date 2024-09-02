@@ -1,4 +1,4 @@
-package com.example.hpaudiobooks.components.media.player
+package com.example.hpaudiobooks.media
 
 import android.content.Context
 import android.media.MediaPlayer

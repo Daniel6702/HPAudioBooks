@@ -1,4 +1,4 @@
-package com.example.hpaudiobooks.components
+package com.example.hpaudiobooks.home
 import android.net.Uri
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

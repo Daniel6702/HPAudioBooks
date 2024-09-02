@@ -1,4 +1,4 @@
-package com.example.hpaudiobooks.components.media.player
+package com.example.hpaudiobooks.media
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -14,28 +14,29 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 
 @Composable
-fun SleepTimerControl(
-    onTimeSelected: (Int) -> Unit
+fun PlaybackSpeedControl(
+    currentSpeed: Float,
+    onSpeedChange: (Float) -> Unit
 ) {
     var expanded by remember { mutableStateOf(false) }
-    val availableTimes = listOf(15, 30, 60) // in minutes
-    val timeLabels = listOf("15 min", "30 min", "60 min")
+    val availableSpeeds = listOf(0.5f, 1.0f, 1.5f, 2.0f)
+    val speedLabels = listOf("0.5x", "1x", "1.5x", "2x")
 
     Box(modifier = Modifier.fillMaxWidth()) {
         Button(onClick = { expanded = true }, modifier = Modifier.fillMaxWidth()) {
-            Text(text = "Set Sleep Timer")
+            Text(text = "Speed: ${speedLabels[availableSpeeds.indexOf(currentSpeed)]}")
         }
         DropdownMenu(
             expanded = expanded,
             onDismissRequest = { expanded = false },
             modifier = Modifier.fillMaxWidth()
         ) {
-            availableTimes.forEachIndexed { index, time ->
+            availableSpeeds.forEachIndexed { index, speed ->
                 DropdownMenuItem(
-                    text = { Text(text = timeLabels[index]) },
+                    text = { Text(text = speedLabels[index]) },
                     onClick = {
                         expanded = false
-                        onTimeSelected(time)
+                        onSpeedChange(speed)
                     }
                 )
             }

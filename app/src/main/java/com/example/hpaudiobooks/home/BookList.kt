@@ -1,4 +1,4 @@
-package com.example.hpaudiobooks.components
+package com.example.hpaudiobooks.home
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items

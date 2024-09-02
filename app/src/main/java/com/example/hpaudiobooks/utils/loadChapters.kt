@@ -1,21 +1,10 @@
-package com.example.hpaudiobooks.components
+package com.example.hpaudiobooks.utils
+
 import android.content.Context
 import android.util.Log
-import com.example.hpaudiobooks.R
-import com.example.hpaudiobooks.models.AudioBook
 import com.example.hpaudiobooks.models.BookData
 import com.example.hpaudiobooks.models.Chapter
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import java.io.IOException
-import java.io.InputStreamReader
-
-fun loadBooksFromJson(context: Context): List<BookData> {
-    val rawResource = context.resources.openRawResource(R.raw.book_data)
-    val reader = InputStreamReader(rawResource)
-    val bookType = object : TypeToken<List<BookData>>() {}.type
-    return Gson().fromJson(reader, bookType)
-}
 
 fun getBookIndex(context: Context, bookName: String): Int {
     val books = loadBooksFromJson(context)
@@ -49,29 +38,4 @@ fun loadChaptersForBook(context: Context, book: BookData): List<Chapter> {
     }
 
     return chapters
-}
-
-fun loadBooks(context: Context): List<AudioBook> {
-    val books = loadBooksFromJson(context)
-    val audioBooks = mutableListOf<AudioBook>()
-
-    for (book in books) {
-        val coverImageId = getCoverImageId(context, book.coverImageName)
-
-        val chapters = loadChaptersForBook(context, book)
-
-        val audioBook = AudioBook(
-            bookData = book,
-            coverImageId = coverImageId,
-            chapters = chapters
-        )
-
-        audioBooks.add(audioBook)
-    }
-
-    return audioBooks
-}
-
-fun getCoverImageId(context: Context, imageName: String): Int {
-    return context.resources.getIdentifier(imageName, "drawable", context.packageName)
 }

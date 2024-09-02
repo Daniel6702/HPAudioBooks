@@ -1,4 +1,4 @@
-package com.example.hpaudiobooks.components.media.player
+package com.example.hpaudiobooks.media
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
