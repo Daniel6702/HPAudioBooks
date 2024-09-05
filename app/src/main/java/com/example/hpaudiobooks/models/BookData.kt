@@ -7,4 +7,5 @@ data class BookData(
     val releaseYear: String,
     val lengthInMinutes: Int,
     val narrator: String,
+    val description: String,
 )

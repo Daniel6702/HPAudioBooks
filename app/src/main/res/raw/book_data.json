@@ -5,7 +5,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "1997",
       "lengthInMinutes": 515,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "Harry Potter, an ordinary boy living with his aunt and uncle, discovers he's a wizard on his 11th birthday. Embark on his first magical adventure at Hogwarts School of Witchcraft and Wizardry, where he uncovers the mystery behind a powerful stone."
     },
     {
       "coverImageName": "harry_potter_chamber_secrets",
@@ -13,7 +14,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "1998",
       "lengthInMinutes": 566,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "In his second year at Hogwarts, Harry faces new dangers as an ancient chamber is reopened, releasing a dark force that threatens the school and its students. Can Harry uncover the secret of the Chamber of Secrets before it’s too late?"
     },
     {
       "coverImageName": "harry_potter_prisoner_azkaban",
@@ -21,7 +23,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "1999",
       "lengthInMinutes": 732,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "Harry returns for his third year at Hogwarts to find out that a dangerous prisoner has escaped from Azkaban. With new allies and old enemies, Harry must confront his past and uncover the truth about his mysterious connection to the escaped convict."
     },
     {
       "coverImageName": "harry_potter_goblet_fire",
@@ -29,7 +32,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "2000",
       "lengthInMinutes": 1079,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "In his fourth year at Hogwarts, Harry unexpectedly becomes a contestant in the dangerous Triwizard Tournament. As the stakes rise and dark forces gather, Harry finds himself at the center of an ominous plot that threatens the wizarding world."
     },
     {
       "coverImageName": "harry_potter_order_phoenix",
@@ -37,7 +41,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "2003",
       "lengthInMinutes": 1260,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "Harry's fifth year at Hogwarts is filled with tension as the wizarding world faces denial about the return of Lord Voldemort. As Harry forms a secret group to defend against the rising threat, he learns more about his own destiny and the power of unity."
     },
     {
       "coverImageName": "harry_potter_half_blood_prince",
@@ -45,7 +50,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "2005",
       "lengthInMinutes": 1086,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "As dark forces tighten their grip, Harry delves into the mysterious past of Lord Voldemort with the help of an old potions book. In this penultimate book, friendships are tested, secrets are revealed, and Harry faces a heartbreaking loss."
     },
     {
       "coverImageName": "harry_potter_deathly_hallows",
@@ -53,7 +59,8 @@
       "author": "J.K. Rowling",
       "releaseYear": "2007",
       "lengthInMinutes": 1243,
-      "narrator": "Stephen Fry"
+      "narrator": "Stephen Fry",
+      "description": "In the epic conclusion to the series, Harry, Ron, and Hermione embark on a perilous journey to find and destroy Voldemort’s Horcruxes. With the final battle looming, Harry must make the ultimate sacrifice to save the wizarding world."
     },
     {
       "coverImageName": "harry_potter_cursed_child",
@@ -61,7 +68,8 @@
       "author": "J.K. Rowling, Jack Thorne, John Tiffany",
       "releaseYear": "2016",
       "lengthInMinutes": 360,
-      "narrator": "Imogen Heap"
+      "narrator": "Imogen Heap",
+      "description": "Set 19 years after the events of the original series, Harry’s son Albus struggles with his family legacy. As dark forces re-emerge, father and son must confront the weight of their past in this new magical adventure."
     }
 ]
 

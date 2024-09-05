@@ -5,8 +5,11 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.DrawerValue
@@ -22,12 +25,15 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.example.hpaudiobooks.about.AboutScreen
 import com.example.hpaudiobooks.media.MediaPlayerScreen
 import com.example.hpaudiobooks.utils.loadBooks
 import com.example.hpaudiobooks.models.AudioBook
@@ -54,18 +60,29 @@ class MainActivity : ComponentActivity() {
             val drawerState = rememberDrawerState(DrawerValue.Closed)
             val scope = rememberCoroutineScope()
 
-            // Scaffold with ModalNavigationDrawer and a top bar
+            // ModalNavigationDrawer with proper layout and opaque background
             ModalNavigationDrawer(
                 drawerState = drawerState,
+                scrimColor = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.32f), // Scrim with slight transparency
                 drawerContent = {
-                    DrawerContent(
-                        books = audioBooks,
-                        onBookSelected = { bookIndex ->
-                            val bookName = audioBooks[bookIndex].bookData.name
-                            navController.navigate("book_page/$bookName")
-                            scope.launch { drawerState.close() }
-                        }
-                    )
+                    Surface(
+                        modifier = Modifier
+                            .fillMaxHeight()
+                            .width(280.dp)  // 80% of a typical screen width
+                            .background(MaterialTheme.colorScheme.surface), // Opaque background for the drawer
+                        color = MaterialTheme.colorScheme.surface // Ensure opaque background
+                    ) {
+                        DrawerContent(
+                            books = audioBooks,
+                            onBookSelected = { bookIndex ->
+                                val bookName = audioBooks[bookIndex].bookData.name
+                                navController.navigate("book_page/$bookName")
+                                scope.launch { drawerState.close() } // Close drawer after selecting a book
+                            },
+                            navController = navController,
+                            drawerState = drawerState // Pass drawerState to DrawerContent
+                        )
+                    }
                 }
             ) {
                 Scaffold(
@@ -80,7 +97,6 @@ class MainActivity : ComponentActivity() {
                         )
                     }
                 ) { paddingValues ->
-                    // NavHost inside the Scaffold to manage navigation
                     NavHost(
                         navController = navController,
                         startDestination = "book_page/{bookName}",
@@ -102,7 +118,9 @@ class MainActivity : ComponentActivity() {
                             }
                         }
 
-
+                        composable("about_screen") {
+                            AboutScreen(navController = navController)
+                        }
                         // Media player screen
                         composable(
                             "media_player/{chapterPath}?autoPlay={autoPlay}&resume={resume}",
