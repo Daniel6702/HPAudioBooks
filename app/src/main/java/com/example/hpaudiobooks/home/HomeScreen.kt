@@ -26,7 +26,7 @@ fun HomeScreen(navController: NavController, audioBooks: List<AudioBook>) {
         Spacer(modifier = Modifier.height(16.dp))
         // Title at the top
         Text(
-            text = "HPAudioBooks",
+            text = "HPAudioBooks [SWMAD-01]",
             style = MaterialTheme.typography.headlineLarge,
             modifier = Modifier.align(Alignment.CenterHorizontally)
         )
