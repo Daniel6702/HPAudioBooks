@@ -42,13 +42,19 @@ import com.example.hpaudiobooks.models.AudioBook
 
 @Composable
 fun BookFrontPage(audioBook: AudioBook, onListenClick: () -> Unit) {
-    // Background with a gradient
+    // Parse colors from the strings in audioBook.bookData
+    val primaryColor = Color(android.graphics.Color.parseColor(audioBook.bookData.primary))
+    val secondaryColor = Color(android.graphics.Color.parseColor(audioBook.bookData.secondary))
+    val tertiaryColor = Color(android.graphics.Color.parseColor(audioBook.bookData.tertiary))
+    val quaternaryColor = Color(android.graphics.Color.parseColor(audioBook.bookData.quaternary))
+
+    // Background with a gradient using the quaternary and tertiary colors
     Box(
         modifier = Modifier
             .fillMaxSize()
             .background(
                 brush = Brush.verticalGradient(
-                    colors = listOf(Color(0xFFe0f7fa), Color(0xFF80deea))
+                    colors = listOf(quaternaryColor, tertiaryColor)
                 )
             )
             .padding(16.dp)
@@ -71,48 +77,48 @@ fun BookFrontPage(audioBook: AudioBook, onListenClick: () -> Unit) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Book Title and Author with different styles
+            // Book Title and Author with different styles using primary and secondary colors
             Text(
                 text = audioBook.bookData.name,
                 style = MaterialTheme.typography.headlineMedium,
                 modifier = Modifier.align(Alignment.CenterHorizontally),
                 textAlign = TextAlign.Center,
                 fontWeight = FontWeight.Bold,
-                color = Color(0xFF00695C)
+                color = primaryColor // Title in primary color
             )
             Spacer(modifier = Modifier.height(4.dp))
             Text(
                 text = "by ${audioBook.bookData.author}",
                 style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.align(Alignment.CenterHorizontally),
-                color = Color(0xFF00796B),
+                color = secondaryColor, // Author in secondary color
                 fontStyle = FontStyle.Italic
             )
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Book Info with icons
+            // Book Info with icons using secondary color
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(imageVector = Icons.Default.Mic, contentDescription = "Narrator", tint = Color(0xFF004D40))
+                Icon(imageVector = Icons.Default.Mic, contentDescription = "Narrator", tint = secondaryColor)
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(text = "Narrator: ${audioBook.bookData.narrator}", style = MaterialTheme.typography.bodyLarge)
             }
             Spacer(modifier = Modifier.height(8.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(imageVector = Icons.Default.CalendarToday, contentDescription = "Year", tint = Color(0xFF004D40))
+                Icon(imageVector = Icons.Default.CalendarToday, contentDescription = "Year", tint = secondaryColor)
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(text = "Year: ${audioBook.bookData.releaseYear}", style = MaterialTheme.typography.bodyLarge)
             }
             Spacer(modifier = Modifier.height(8.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(imageVector = Icons.Default.Timer, contentDescription = "Length", tint = Color(0xFF004D40))
+                Icon(imageVector = Icons.Default.Timer, contentDescription = "Length", tint = secondaryColor)
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(text = "Length: ${formatLength(audioBook.bookData.lengthInMinutes)}", style = MaterialTheme.typography.bodyLarge)
             }
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Book Description with scrollable text
+            // Book Description with scrollable text and border using primary color
             Text(
                 text = "Description:",
                 style = MaterialTheme.typography.bodyLarge,
@@ -123,10 +129,10 @@ fun BookFrontPage(audioBook: AudioBook, onListenClick: () -> Unit) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(150.dp)
-                    .background(Color(0xFFE0F2F1), shape = RoundedCornerShape(8.dp))
+                    .background(tertiaryColor, shape = RoundedCornerShape(8.dp)) // Background with tertiary color
                     .border(
                         width = 2.dp,
-                        color = Color(0xFF00796B), // Dark green border color
+                        color = primaryColor, // Border with primary color
                         shape = RoundedCornerShape(8.dp)
                     )
                     .padding(8.dp)
@@ -137,7 +143,7 @@ fun BookFrontPage(audioBook: AudioBook, onListenClick: () -> Unit) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Listen Button with icon and modern look
+            // Listen Button with icon and modern look using primary color
             Button(
                 onClick = onListenClick,
                 modifier = Modifier
@@ -145,8 +151,8 @@ fun BookFrontPage(audioBook: AudioBook, onListenClick: () -> Unit) {
                     .fillMaxWidth(0.6f)
                     .height(56.dp),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFF00796B), // Replaces backgroundColor
-                    contentColor = Color.White // Remains the same
+                    containerColor = primaryColor, // Button color from primary
+                    contentColor = Color.White // Text/icon remains white
                 ),
                 shape = RoundedCornerShape(50)
             ) {

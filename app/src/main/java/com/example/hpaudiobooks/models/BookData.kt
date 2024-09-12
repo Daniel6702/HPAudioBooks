@@ -8,4 +8,8 @@ data class BookData(
     val lengthInMinutes: Int,
     val narrator: String,
     val description: String,
+    val primary: String,
+    val secondary: String,
+    val tertiary: String,
+    val quaternary: String
 )

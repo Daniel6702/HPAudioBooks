@@ -22,6 +22,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -60,6 +61,9 @@ class MainActivity : ComponentActivity() {
             val drawerState = rememberDrawerState(DrawerValue.Closed)
             val scope = rememberCoroutineScope()
 
+            // Store the currently selected book's primary color
+            var primaryColor by remember { mutableStateOf(Color.Transparent) }
+
             // ModalNavigationDrawer with proper layout and opaque background
             ModalNavigationDrawer(
                 drawerState = drawerState,
@@ -75,7 +79,12 @@ class MainActivity : ComponentActivity() {
                         DrawerContent(
                             books = audioBooks,
                             onBookSelected = { bookIndex ->
-                                val bookName = audioBooks[bookIndex].bookData.name
+                                val selectedBook = audioBooks[bookIndex]
+                                val bookName = selectedBook.bookData.name
+
+                                // Parse primary color of the selected book
+                                primaryColor = Color(android.graphics.Color.parseColor(selectedBook.bookData.primary))
+
                                 navController.navigate("book_page/$bookName")
                                 scope.launch { drawerState.close() } // Close drawer after selecting a book
                             },
@@ -87,13 +96,17 @@ class MainActivity : ComponentActivity() {
             ) {
                 Scaffold(
                     topBar = {
+                        // TopAppBar that changes color based on the selected book
                         TopAppBar(
                             title = { Text("AudioBooks") },
                             navigationIcon = {
                                 IconButton(onClick = { scope.launch { drawerState.open() } }) {
                                     Icon(Icons.Default.Menu, contentDescription = "Menu")
                                 }
-                            }
+                            },
+                            colors = TopAppBarDefaults.topAppBarColors(
+                                containerColor = primaryColor // Dynamic background color from the selected book
+                            )
                         )
                     }
                 ) { paddingValues ->
@@ -107,6 +120,8 @@ class MainActivity : ComponentActivity() {
                             val audioBook = audioBooks.find { it.bookData.name == bookName }
 
                             if (audioBook != null) {
+                                primaryColor = Color(android.graphics.Color.parseColor(audioBook.bookData.tertiary))
+
                                 BookFrontPage(
                                     audioBook = audioBook,
                                     onListenClick = {
