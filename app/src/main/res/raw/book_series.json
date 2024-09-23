@@ -1,0 +1,3685 @@
+{
+  "book_series": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "books": [
+        {
+          "id": 1,
+          "coverImageName": "harry_potter_philosophers_stone",
+          "name": "Harry Potter and the Philosopher's Stone",
+          "author": "J.K. Rowling",
+          "releaseYear": "1997",
+          "lengthInMinutes": 515,
+          "narrator": "Stephen Fry",
+          "description": "Harry Potter, an ordinary boy living with his aunt and uncle, discovers he's a wizard on his 11th birthday. Embark on his first magical adventure at Hogwarts School of Witchcraft and Wizardry, where he uncovers the mystery behind a powerful stone.",
+          "primary": "#8B0000",
+          "secondary": "#FFD700",
+          "tertiary": "#e6993c",
+          "quaternary": "#5D3A00",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "The Boy Who Lived",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/01_THE_BOY_WHO_LIVED.mp3"
+            },
+            {
+              "id": 2,
+              "name": "The Vanishing Glass",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/02_THE_VANISHING_GLASS.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Letters From No One",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/03_THE_LETTERS_FROM_NO_ONE.mp3"
+            },
+            {
+              "id": 4,
+              "name": "The Keeper Of The Keys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/04_THE_KEEPER_OF_THE_KEYS.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Diagon Alley",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/05_DIAGON_ALLEY.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Journey From Platform Nine",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/06_JOURNEY_FROM_PLATFORM_NINE.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The Sorting Hat",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/07_THE_SORTING_HAT.mp3"
+            },
+            {
+              "id": 8,
+              "name": "The Potions Master",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/08_THE_POTIONS_MASTER.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Midnight Duel",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/09_THE_MIDNIGHT_DUEL.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Halloween",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/10_HALLOWEEN.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Quidditch",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/11_QUIDDITCH.mp3"
+            },
+            {
+              "id": 12,
+              "name": "The Mirror Of Erised",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/12_THE_MIRROR_OF_ERISED.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Nicolas Flamel",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/13_NICOLAS_FLAMEL.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Norbert The Norwegian",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/14_NORBERT_THE_NORWEGIAN.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Forbidden Forest",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/15_THE_FORBIDDEN_FOREST.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Through The Trapdoor",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/16_THROUGH_THE_TRAPDOOR.mp3"
+            },
+            {
+              "id": 17,
+              "name": "The Man With Two Faces",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/01_Harry_Potter_and_the_Philosopher's_Stone/17_THE_MAN_WITH_TWO_FACES.mp3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "coverImageName": "harry_potter_chamber_secrets",
+          "name": "Harry Potter and the Chamber of Secrets",
+          "author": "J.K. Rowling",
+          "releaseYear": "1998",
+          "lengthInMinutes": 566,
+          "narrator": "Stephen Fry",
+          "description": "In his second year at Hogwarts, Harry faces new dangers as an ancient chamber is reopened, releasing a dark force that threatens the school and its students. Can Harry uncover the secret of the Chamber of Secrets before it\u00e2\u20ac\u2122s too late?",
+          "primary": "#013220",
+          "secondary": "#006400",
+          "tertiary": "#98FB98",
+          "quaternary": "#2F4F4F",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "The Worst Birthday",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/01_THE_WORST_BIRTHDAY.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Dobbys Warning",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/02_DOBBYS_WARNING.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Burrow",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/03_THE_BURROW.mp3"
+            },
+            {
+              "id": 4,
+              "name": "At Flourish And Blotts",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/04_AT_FLOURISH_AND_BLOTTS.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Whomping Willow",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/05_WHOMPING_WILLOW.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Gilderoy Lockhart",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/06_GILDEROY_LOCKHART.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Mudbloods And Murmurs",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/07_MUDBLOODS_AND_MURMURS.mp3"
+            },
+            {
+              "id": 8,
+              "name": "The Eathday Party",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/08_THE_EATHDAY_PARTY.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Writing On The Wall",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/09_THE_WRITING_ON_THE_WALL.mp3"
+            },
+            {
+              "id": 10,
+              "name": "The Rogue Bludger",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/10_THE_ROGUE_BLUDGER.mp3"
+            },
+            {
+              "id": 11,
+              "name": "The Duelling Club",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/11_THE_DUELLING_CLUB.mp3"
+            },
+            {
+              "id": 12,
+              "name": "The Polyjuice Potion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/12_THE_POLYJUICE_POTION.mp3"
+            },
+            {
+              "id": 13,
+              "name": "The Very Secret Diary",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/13_THE_VERY_SECRET_DIARY.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Cornelius Fudge",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/14_CORNELIUS_FUDGE.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Aragog",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/15_ARAGOG.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chamber Of Secrets",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/16_CHAMBER_OF_SECRETS.mp3"
+            },
+            {
+              "id": 17,
+              "name": "The Heir Of Slytherin",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/17_THE_HEIR_OF_SLYTHERIN.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Dobbys Reward",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/02_Harry_Potter_and_the_Chamber_of_Secrets/18_DOBBYS_REWARD.mp3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "coverImageName": "harry_potter_prisoner_azkaban",
+          "name": "Harry Potter and the Prisoner of Azkaban",
+          "author": "J.K. Rowling",
+          "releaseYear": "1999",
+          "lengthInMinutes": 732,
+          "narrator": "Stephen Fry",
+          "description": "Harry returns for his third year at Hogwarts to find out that a dangerous prisoner has escaped from Azkaban. With new allies and old enemies, Harry must confront his past and uncover the truth about his mysterious connection to the escaped convict.",
+          "primary": "#4B0082",
+          "secondary": "#191970",
+          "tertiary": "#D8BFD8",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Owl Post",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/01_OWL_POST.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Aun Marges Big Mistake",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/02_AUN_MARGES_BIG_MISTAKE.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Knight Bus",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/03_THE_KNIGHT_BUS.mp3"
+            },
+            {
+              "id": 4,
+              "name": "The Leaky Cauldron",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/04_THE_LEAKY_CAULDRON.mp3"
+            },
+            {
+              "id": 5,
+              "name": "The Dementor",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/05_THE_DEMENTOR.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Talons And Tea Leaves",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/06_TALONS_AND_TEA_LEAVES.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The Boggart In The Wardrobe",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/07_THE_BOGGART_IN_THE_WARDROBE.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Flight Of The Fat Lady",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/08_FLIGHT_OF_THE_FAT_LADY.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Grim Defea",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/09_GRIM_DEFEA.mp3"
+            },
+            {
+              "id": 10,
+              "name": "The Marauder Map",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/10_THE_MARAUDER_MAP.mp3"
+            },
+            {
+              "id": 11,
+              "name": "The Firebolt",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/11_THE_FIREBOLT.mp3"
+            },
+            {
+              "id": 12,
+              "name": "The Patronus",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/12_THE_PATRONUS.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Gryffindor Versus Ravenclaw",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/13_GRYFFINDOR_VERSUS_RAVENCLAW.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Snapes Grudge",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/14_SNAPES_GRUDGE.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Quidditch Final",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/15_THE_QUIDDITCH_FINAL.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Professor",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/16_PROFESSOR.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Cat Rat And Dog",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/17_CAT_RAT_AND_DOG.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Padfoot And Prongs",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/17_PADFOOT_AND_PRONGS.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Servant Of Lord Voldemort",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/19_SERVANT_OF_LORD_VOLDEMORT.mp3"
+            },
+            {
+              "id": 20,
+              "name": "The Dementors Kiss",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/20_THE_DEMENTORS_KISS.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Hermiones Secret",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/21_HERMIONES_SECRET.mp3"
+            },
+            {
+              "id": 22,
+              "name": "Owl Post Again",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/03_Harry_Potter_and_the_Prisoner_of_Azkaban/22_OWL_POST_AGAIN.mp3"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "coverImageName": "harry_potter_goblet_fire",
+          "name": "Harry Potter and the Goblet of Fire",
+          "author": "J.K. Rowling",
+          "releaseYear": "2000",
+          "lengthInMinutes": 1079,
+          "narrator": "Stephen Fry",
+          "description": "In his fourth year at Hogwarts, Harry unexpectedly becomes a contestant in the dangerous Triwizard Tournament. As the stakes rise and dark forces gather, Harry finds himself at the center of an ominous plot that threatens the wizarding world.",
+          "primary": "#FF00796B",
+          "secondary": "#FF004D40",
+          "tertiary": "#FFE0F2F1",
+          "quaternary": "#FF80DEEA",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "The Riddle House ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/01_The_Riddle_House_.mp3"
+            },
+            {
+              "id": 2,
+              "name": "The Scar ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/02_The_Scar_.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Invitation ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/03_The_Invitation_.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Back To The Burrow ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/04_Back_To_The_Burrow_.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Weasleys Wizard Wheezes ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/05_Weasleys_Wizard_Wheezes_.mp3"
+            },
+            {
+              "id": 6,
+              "name": "The Portkey ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/06_The_Portkey_.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Bagman And Crouch ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/07_Bagman_And_Crouch_.mp3"
+            },
+            {
+              "id": 8,
+              "name": "The Quidditch World Cup ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/08_The_Quidditch_World_Cup_.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Dark Mark ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/09_The_Dark_Mark_.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Mayhem At The Ministry ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/10_Mayhem_At_The_Ministry_.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Aboard Hogwarts Express ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/11_Aboard_Hogwarts_Express_.mp3"
+            },
+            {
+              "id": 12,
+              "name": "The Triwizard Tournament ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/12_The_Triwizard_Tournament_.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Madeye Moody ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/13_Madeye_Moody_.mp3"
+            },
+            {
+              "id": 14,
+              "name": "The Unforgivable Curses ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/14_The_Unforgivable_Curses_.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Durmstrang ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/15_Durmstrang_.mp3"
+            },
+            {
+              "id": 16,
+              "name": "The Goblet Of Fire ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/16_The_Goblet_Of_Fire_.mp3"
+            },
+            {
+              "id": 17,
+              "name": "The Four Champions ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/17_The_Four_Champions_.mp3"
+            },
+            {
+              "id": 18,
+              "name": "The Weighing Of The Wands ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/18_The_Weighing_Of_The_Wands_.mp3"
+            },
+            {
+              "id": 19,
+              "name": "The Hungarian Horntail ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/19_The_Hungarian_Horntail_.mp3"
+            },
+            {
+              "id": 20,
+              "name": "The First Task ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/20_The_First_Task_.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Liberation Front ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/21_Liberation_Front_.mp3"
+            },
+            {
+              "id": 22,
+              "name": "The Unexpected Task ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/22_The_Unexpected_Task_.mp3"
+            },
+            {
+              "id": 23,
+              "name": "The Yule Ball ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/23_The_Yule_Ball_.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Rita Skeeters Scoop ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/24_Rita_Skeeters_Scoop_.mp3"
+            },
+            {
+              "id": 25,
+              "name": "The Egg And The Eye ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/25_The_Egg_And_The_Eye_.mp3"
+            },
+            {
+              "id": 26,
+              "name": "The Second Task ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/26_The_Second_Task_.mp3"
+            },
+            {
+              "id": 27,
+              "name": "Padfoot Returns ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/27_Padfoot_Returns_.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Madness Mr Crouch ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/28_Madness_Mr_Crouch_.mp3"
+            },
+            {
+              "id": 29,
+              "name": "The Dream ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/29_The_Dream_.mp3"
+            },
+            {
+              "id": 30,
+              "name": "The Pensieve ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/30_The_Pensieve_.mp3"
+            },
+            {
+              "id": 31,
+              "name": "The Third Task ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/31_The_Third_Task_.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Flesh Blood And Bone ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/32_Flesh_Blood_And_Bone_.mp3"
+            },
+            {
+              "id": 33,
+              "name": "The Death Eater ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/33_The_Death_Eater_.mp3"
+            },
+            {
+              "id": 34,
+              "name": "Priori Incantatem ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/34_Priori_Incantatem_.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Veritaserum ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/35_Veritaserum_.mp3"
+            },
+            {
+              "id": 36,
+              "name": "Parting Of The Ways ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/36_Parting_Of_The_Ways_.mp3"
+            },
+            {
+              "id": 37,
+              "name": "The Beginning ",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/04_Harry_Potter_and_the_Goblet_of_Fire/37_The_Beginning_.mp3"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "coverImageName": "harry_potter_order_phoenix",
+          "name": "Harry Potter and the Order of the Phoenix",
+          "author": "J.K. Rowling",
+          "releaseYear": "2003",
+          "lengthInMinutes": 1260,
+          "narrator": "Stephen Fry",
+          "description": "Harry's fifth year at Hogwarts is filled with tension as the wizarding world faces denial about the return of Lord Voldemort. As Harry forms a secret group to defend against the rising threat, he learns more about his own destiny and the power of unity.",
+          "primary": "#8B0000",
+          "secondary": "#FF4500",
+          "tertiary": "#FFD700",
+          "quaternary": "#800080",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Dudley Demented",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/01_DUDLEY_DEMENTED.mp3"
+            },
+            {
+              "id": 2,
+              "name": "A Peck Of Owls",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/02_A_PECK_OF_OWLS.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Advance Guard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/03_THE_ADVANCE_GUARD.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Number 12 Grimmauld Place",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/04_NUMBER_12_GRIMMAULD_PLACE.mp3"
+            },
+            {
+              "id": 5,
+              "name": "The Order Of The Phoenix",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/05_THE_ORDER_OF_THE_PHOENIX.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Most Ancient House Of Blac",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/06_MOST_ANCIENT_HOUSE_OF_BLAC.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The Ministry Of Magic",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/07_THE_MINISTRY_OF_MAGIC.mp3"
+            },
+            {
+              "id": 8,
+              "name": "The Hearing",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/08_THE_HEARING.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Woes Of Mrs Weasley",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/09_THE_WOES_OF_MRS_WEASLEY.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Luna Lovegood",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/10_LUNA_LOVEGOOD.mp3"
+            },
+            {
+              "id": 11,
+              "name": "The Sorting Hats New Song",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/11_THE_SORTING_HATS_NEW_SONG.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Professor Umbridge",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/12_PROFESSOR_UMBRIDGE.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Detention With Dolores",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/13_DETENTION_WITH_DOLORES.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Percy And Padfoot",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/14_PERCY_AND_PADFOOT.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Hogwarts High Inquisitor",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/15_THE_HOGWARTS_HIGH_INQUISITOR.mp3"
+            },
+            {
+              "id": 16,
+              "name": "In The Hogs Head",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/16_IN_THE_HOGS_HEAD.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Educational Decree Number 24",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/17_EDUCATIONAL_DECREE_NUMBER_24.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Dumbledores Army",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/18_DUMBLEDORES_ARMY.mp3"
+            },
+            {
+              "id": 19,
+              "name": "The Light And The Serpent",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/19_THE_LIGHT_AND_THE_SERPENT.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Hagrids Tale",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/20_HAGRIDS_TALE.mp3"
+            },
+            {
+              "id": 21,
+              "name": "The Eye Of The Snake",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/21_THE_EYE_OF_THE_SNAKE.mp3"
+            },
+            {
+              "id": 22,
+              "name": "Maladies And Injuries",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/22_MALADIES_AND_INJURIES.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Christmas On The Closed Ward",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/23_CHRISTMAS_ON_THE_CLOSED_WARD.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Occlumency",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/24_OCCLUMENCY.mp3"
+            },
+            {
+              "id": 25,
+              "name": "The Beetle At Bay",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/25_THE_BEETLE_AT_BAY.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Seen And Unforseen",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/26_SEEN_AND_UNFORSEEN.mp3"
+            },
+            {
+              "id": 27,
+              "name": "The Centaur And The Sneak",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/27_THE_CENTAUR_AND_THE_SNEAK.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Snapes Worst Memory",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/28_SNAPES_WORST_MEMORY.mp3"
+            },
+            {
+              "id": 29,
+              "name": "Carrer Advice",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/29_CARRER_ADVICE.mp3"
+            },
+            {
+              "id": 30,
+              "name": "Grawp",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/30_GRAWP.mp3"
+            },
+            {
+              "id": 31,
+              "name": "Owls",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/31_OWLS.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Out Of The Fire",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/32_OUT_OF_THE_FIRE.mp3"
+            },
+            {
+              "id": 33,
+              "name": "Fight And Flight",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/33_FIGHT_AND_FLIGHT.mp3"
+            },
+            {
+              "id": 34,
+              "name": "The Department Of Mysteries",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/34_THE_DEPARTMENT_OF_MYSTERIES.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Beyond The Veil",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/35_BEYOND_THE_VEIL.mp3"
+            },
+            {
+              "id": 36,
+              "name": "The Only One He Ever Feared",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/36_THE_ONLY_ONE_HE_EVER_FEARED.mp3"
+            },
+            {
+              "id": 37,
+              "name": "The Lost Prophecy",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/37_THE_LOST_PROPHECY.mp3"
+            },
+            {
+              "id": 38,
+              "name": "The Second War Begins",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/05_Harry_Potter_and_the_Order_of_the_Phoenix/38_THE_SECOND_WAR_BEGINS.mp3"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "coverImageName": "harry_potter_half_blood_prince",
+          "name": "Harry Potter and the Half-Blood Prince",
+          "author": "J.K. Rowling",
+          "releaseYear": "2005",
+          "lengthInMinutes": 1086,
+          "narrator": "Stephen Fry",
+          "description": "As dark forces tighten their grip, Harry delves into the mysterious past of Lord Voldemort with the help of an old potions book. In this penultimate book, friendships are tested, secrets are revealed, and Harry faces a heartbreaking loss.",
+          "primary": "#4B0082",
+          "secondary": "#FF4500",
+          "tertiary": "#FFD700",
+          "quaternary": "#FF6347",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "The Other Minister",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/01_THE_OTHER_MINISTER.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Spinners End",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/02_SPINNERS_END.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Will And Wont",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/03_WILL_AND_WONT.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Horace Slughorn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/04_HORACE_SLUGHORN.mp3"
+            },
+            {
+              "id": 5,
+              "name": "An Excess Of Phlegm",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/05_AN_EXCESS_OF_PHLEGM.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Dracos Detour",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/06_DRACOS_DETOUR.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The Slug Club",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/07_THE_SLUG_CLUB.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Snape Victorious",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/08_SNAPE_VICTORIOUS.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Halfblood Prince",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/09_THE_HALFBLOOD_PRINCE.mp3"
+            },
+            {
+              "id": 10,
+              "name": "The House Of Gaunt",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/10_THE_HOUSE_OF_GAUNT.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Hermiones Helping Hand",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/11_HERMIONES_HELPING_HAND.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Silver And Opals",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/12_SILVER_AND_OPALS.mp3"
+            },
+            {
+              "id": 13,
+              "name": "The Secret Riddle",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/13_THE_SECRET_RIDDLE.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Felix Felicis",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/14_FELIX_FELICIS.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Unbreakable Vow",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/15_THE_UNBREAKABLE_VOW.mp3"
+            },
+            {
+              "id": 16,
+              "name": "A Very Frosty Christmas",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/16_A_VERY_FROSTY_CHRISTMAS.mp3"
+            },
+            {
+              "id": 17,
+              "name": "A Sluggish Memory",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/17_A_SLUGGISH_MEMORY.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Birthday Surprises",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/18_BIRTHDAY_SURPRISES.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Elf Tails",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/19_ELF_TAILS.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Lord Voldemorts Request",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/20_LORD_VOLDEMORTS_REQUEST.mp3"
+            },
+            {
+              "id": 21,
+              "name": "The Unknowable Room",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/21_THE_UNKNOWABLE_ROOM.mp3"
+            },
+            {
+              "id": 22,
+              "name": "After The Burial",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/22_AFTER_THE_BURIAL.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Horcruxes",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/23_HORCRUXES.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Sectumsempra",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/24_SECTUMSEMPRA.mp3"
+            },
+            {
+              "id": 25,
+              "name": "The Seer Overheard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/25_THE_SEER_OVERHEARD.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Cave",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/26_CAVE.mp3"
+            },
+            {
+              "id": 27,
+              "name": "Lightningstruck Tower",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/27_LIGHTNINGSTRUCK_TOWER.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Flight Of The Prince",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/28_FLIGHT_OF_THE_PRINCE.mp3"
+            },
+            {
+              "id": 29,
+              "name": "The Phoenix Lament",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/29_THE_PHOENIX_LAMENT.mp3"
+            },
+            {
+              "id": 30,
+              "name": "The White Tomb",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/06_Harry_Potter_and_the_half-blood_prince/37_THE_WHITE_TOMB.mp3"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "coverImageName": "harry_potter_deathly_hallows",
+          "name": "Harry Potter and the Deathly Hallows",
+          "author": "J.K. Rowling",
+          "releaseYear": "2007",
+          "lengthInMinutes": 1243,
+          "narrator": "Stephen Fry",
+          "description": "In the epic conclusion to the series, Harry, Ron, and Hermione embark on a perilous journey to find and destroy Voldemort\u00e2\u20ac\u2122s Horcruxes. With the final battle looming, Harry must make the ultimate sacrifice to save the wizarding world.",
+          "primary": "#013220",
+          "secondary": "#228B22",
+          "tertiary": "#90EE90",
+          "quaternary": "#556B2F",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "The Dark Lord Ascending",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/01_THE_DARK_LORD_ASCENDING.mp3"
+            },
+            {
+              "id": 2,
+              "name": "In Memoriam",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/02_IN_MEMORIAM.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Dursleys Departing",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/03_THE_DURSLEYS_DEPARTING.mp3"
+            },
+            {
+              "id": 4,
+              "name": "The Seven Potters",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/04_THE_SEVEN_POTTERS.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Fallen Warrior",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/05_FALLEN_WARRIOR.mp3"
+            },
+            {
+              "id": 6,
+              "name": "The Ghoul In Pyjamas",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/06_THE_GHOUL_IN_PYJAMAS.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The Will Of Albus Dumbledore",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/07_THE_WILL_OF_ALBUS_DUMBLEDORE.mp3"
+            },
+            {
+              "id": 8,
+              "name": "The Wedding",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/08_THE_WEDDING.mp3"
+            },
+            {
+              "id": 9,
+              "name": "A Place To Hide",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/09_A_PLACE_TO_HIDE.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Kreachers Tale",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/10_KREACHERS_TALE.mp3"
+            },
+            {
+              "id": 11,
+              "name": "The Bribe",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/11_THE_BRIBE.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Magic Is Might",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/12_MAGIC_IS_MIGHT.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Registration Commision",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/13_REGISTRATION_COMMISION.mp3"
+            },
+            {
+              "id": 14,
+              "name": "The Thief",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/14_THE_THIEF.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Goblins Revenge",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/15_THE_GOBLINS_REVENGE.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Godrics Hollow",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/16_GODRICS_HOLLOW.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Bathildas Secret",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/17_BATHILDAS_SECRET.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Of Albus Dumbledore",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/18_OF_ALBUS_DUMBLEDORE.mp3"
+            },
+            {
+              "id": 19,
+              "name": "The Silver Doe",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/19_THE_SILVER_DOE.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Xenophilius Lovegood",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/20_XENOPHILIUS_LOVEGOOD.mp3"
+            },
+            {
+              "id": 21,
+              "name": "The Three Brothers",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/21_THE_THREE_BROTHERS.mp3"
+            },
+            {
+              "id": 22,
+              "name": "The Deathly Hallows",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/22_THE_DEATHLY_HALLOWS.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Malfoy Manor",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/23_MALFOY_MANOR.mp3"
+            },
+            {
+              "id": 24,
+              "name": "The Wandmaker",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/24_THE_WANDMAKER.mp3"
+            },
+            {
+              "id": 25,
+              "name": "Shell Cottage",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/25_SHELL_COTTAGE.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Gringots",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/26_GRINGOTS.mp3"
+            },
+            {
+              "id": 27,
+              "name": "The Final Hiding Place",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/27_THE_FINAL_HIDING_PLACE.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Missing Mirror",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/28_MISSING_MIRROR.mp3"
+            },
+            {
+              "id": 29,
+              "name": "Lost Diadem",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/29_LOST_DIADEM.mp3"
+            },
+            {
+              "id": 30,
+              "name": "Sacking Of Severus Snape",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/30_SACKING_OF_SEVERUS_SNAPE.mp3"
+            },
+            {
+              "id": 31,
+              "name": "Battle Of Hogwarts",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/31_BATTLE_OF_HOGWARTS.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Elder Wand",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/32_ELDER_WAND.mp3"
+            },
+            {
+              "id": 33,
+              "name": "Princes Tale",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/33_PRINCES_TALE.mp3"
+            },
+            {
+              "id": 34,
+              "name": "Forest Again",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/34_FOREST_AGAIN.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Kings Cross",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/35_KINGS_CROSS.mp3"
+            },
+            {
+              "id": 36,
+              "name": "The Flaw In The Plan",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/36_THE_FLAW_IN_THE_PLAN.mp3"
+            },
+            {
+              "id": 37,
+              "name": "Nineteen Years Later",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/07_Harry_Potter_and_the_Deathly_Hallows/37_NINETEEN_YEARS_LATER.mp3"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "coverImageName": "harry_potter_cursed_child",
+          "name": "Harry Potter and the Cursed Child",
+          "author": "J.K. Rowling, Jack Thorne, John Tiffany",
+          "releaseYear": "2016",
+          "lengthInMinutes": 360,
+          "narrator": "Imogen Heap",
+          "description": "Set 19 years after the events of the original series, Harry\u00e2\u20ac\u2122s son Albus struggles with his family legacy. As dark forces re-emerge, father and son must confront the weight of their past in this new magical adventure.",
+          "primary": "#4B3621",
+          "secondary": "#DAA520",
+          "tertiary": "#FF8C00",
+          "quaternary": "#D2B48C",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Cursed Child",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/08_Harry_Potter_and_the_Cursed_Child/01_Cursed_Child.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Cursed Child",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/08_Harry_Potter_and_the_Cursed_Child/02_Cursed_Child.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Cursed Child",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/08_Harry_Potter_and_the_Cursed_Child/03_Cursed_Child.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Cursed Child",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/08_Harry_Potter_and_the_Cursed_Child/04_Cursed_Child.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Cursed Child",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/01_Harry_Potter/08_Harry_Potter_and_the_Cursed_Child/05_Cursed_Child.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Lord of the Rings",
+      "books": [
+        {
+          "id": 1,
+          "coverImageName": "lord_of_the_rings_fellowship",
+          "name": "The Fellowship of the Ring",
+          "author": "J.R.R. Tolkien",
+          "releaseYear": "1954",
+          "lengthInMinutes": 683,
+          "narrator": "Rob Inglis",
+          "description": "In the first book of the epic trilogy, the dark lord Sauron seeks the One Ring that will allow him to control Middle-earth. A young hobbit named Frodo Baggins is entrusted with the ring and embarks on a perilous journey to Mount Doom to destroy it.",
+          "primary": "#8B4513",
+          "secondary": "#FFD700",
+          "tertiary": "#006400",
+          "quaternary": "#2E8B57",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "A Long Expected Party",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/01_A_Long-Expected_Party.mp3"
+            },
+            {
+              "id": 2,
+              "name": "The Shadow Of The Past",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/02_The_Shadow_of_the_Past.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Three Is Company",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/03_Three_Is_Company.mp3"
+            },
+            {
+              "id": 4,
+              "name": "A Shortcut To Mushrooms",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/04_A_Shortcut_to_Mushrooms.mp3"
+            },
+            {
+              "id": 5,
+              "name": "A Conspiracy Unmasked",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/05_A_Conspiracy_Unmasked.mp3"
+            },
+            {
+              "id": 6,
+              "name": "The Old Forest",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/06_The_Old_Forest.mp3"
+            },
+            {
+              "id": 7,
+              "name": "In The House Of Tom Bombadil",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/07_In_The_House_of_Tom_Bombadil.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Fog On The Barrow Downs",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/08_Fog_on_the_Barrow_Downs.mp3"
+            },
+            {
+              "id": 9,
+              "name": "At The Sign Of The Prancing Pony",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/09_At_the_Sign_of_the_Prancing_Pony.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Strider",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/10_Strider.mp3"
+            },
+            {
+              "id": 11,
+              "name": "A Knife In The Dark",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/11_A_Knife_in_the_Dark.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Flight To The Ford",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/12_Flight_to_the_Ford.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Many Meetings",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/13_Many_Meetings.mp3"
+            },
+            {
+              "id": 14,
+              "name": "The Council Of Elrond 1",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/14_The_Council_of_Elrond_1.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Council Of Elrond 2",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/14_The_Council_of_Elrond_2.mp3"
+            },
+            {
+              "id": 16,
+              "name": "The Ring Goes South",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/15_The_Ring_Goes_South.mp3"
+            },
+            {
+              "id": 17,
+              "name": "A Journey In The Dark",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/16_A_Journey_In_The_Dark.mp3"
+            },
+            {
+              "id": 18,
+              "name": "The Bridge Of Khazad Dum",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/17_The_Bridge_of_Khazad-Dum.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Lothlorien",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/18_Lothlorien.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Mirror Of Galadriel",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/19_Mirror_of_Galadriel.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Farewell To Lorien",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/20_Farewell_to_Lorien.mp3"
+            },
+            {
+              "id": 22,
+              "name": "The Great River",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/21_The_Great_River.mp3"
+            },
+            {
+              "id": 23,
+              "name": "The Breaking Of The Fellowship",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/01_The_Fellowship_of_the_Ring/22_The_Breaking_of_the_Fellowship.mp3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "coverImageName": "lord_of_the_rings_two_towers",
+          "name": "The Two Towers",
+          "author": "J.R.R. Tolkien",
+          "releaseYear": "1954",
+          "lengthInMinutes": 684,
+          "narrator": "Rob Inglis",
+          "description": "In the second book of the trilogy, Frodo and Sam continue their journey to Mordor, while Aragorn, Legolas, and Gimli search for Merry and Pippin, who have been captured by the orcs. The fate of Middle-earth hangs in the balance.",
+          "primary": "#8B4513",
+          "secondary": "#FFD700",
+          "tertiary": "#006400",
+          "quaternary": "#2E8B57",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "The Departure Of Boromir",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/01_The_Departure_of_Boromir.mp3"
+            },
+            {
+              "id": 2,
+              "name": "The Riders Of Rohan",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/02_The_Riders_of_Rohan.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Uruk Hai",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/03_The_Uruk-Hai.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Treebeard 1",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/04_Treebeard_1.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Treebeard 2",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/04_Treebeard_2.mp3"
+            },
+            {
+              "id": 6,
+              "name": "The White Rider",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/05_The_White_Rider.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The King Of The Golden Hall",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/06_The_King_of_the_Golden_Hall.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Helms Deep",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/07_Helms_Deep.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Road To Isengard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/08_The_Road_to_Isengard.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Flotsam & Jetsam",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/09_Flotsam_&_Jetsam.mp3"
+            },
+            {
+              "id": 11,
+              "name": "The Voice Of Saruman",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/10_The_Voice_of_Saruman.mp3"
+            },
+            {
+              "id": 12,
+              "name": "The Palantir",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/11_The_Palantir.mp3"
+            },
+            {
+              "id": 13,
+              "name": "The Taming Of Smeagol",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/12_The_Taming_of_Smeagol.mp3"
+            },
+            {
+              "id": 14,
+              "name": "The Passage Of The Marshes",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/13_The_Passage_of_the_Marshes.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Black Gate Is Closed",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/14_The_Black_Gate_is_Closed.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Of Herbs And Stewed Rabbit",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/15_Of_Herbs_and_Stewed_Rabbit.mp3"
+            },
+            {
+              "id": 17,
+              "name": "The Window On The West",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/16_The_Window_On_The_West.mp3"
+            },
+            {
+              "id": 18,
+              "name": "The Forbidden Pool",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/17_The_Forbidden_Pool.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Journey To The Cross Roads",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/18_Journey_To_The_Cross-Roads.mp3"
+            },
+            {
+              "id": 20,
+              "name": "The Stairs Of Cirith Ungol",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/19_The_Stairs_of_Cirith_Ungol.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Shelobs Lair",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/20_Shelobs_Lair.mp3"
+            },
+            {
+              "id": 22,
+              "name": "The Choices Of Master Samwise",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/02_The_Two_Towers/21_The_Choices_of_Master_Samwise.mp3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "coverImageName": "lord_of_the_rings_return_of_the_king",
+          "name": "The Return of the King",
+          "author": "J.R.R. Tolkien",
+          "releaseYear": "1955",
+          "lengthInMinutes": 734,
+          "narrator": "Rob Inglis",
+          "description": "In the final book of the trilogy, the forces of good and evil converge on the fields of Gondor for the epic Battle of the Pelennor Fields. As the fate of Middle-earth is decided, Frodo and Sam must confront the dark lord Sauron in the heart of Mordor.",
+          "primary": "#8B4513",
+          "secondary": "#FFD700",
+          "tertiary": "#006400",
+          "quaternary": "#2E8B57",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Minas Tirith 1",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/01_Minas_Tirith_1.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Minas Tirith 2",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/01_Minas_Tirith_2.mp3"
+            },
+            {
+              "id": 3,
+              "name": "The Passing Of The Grey Company",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/02_The_Passing_of_the_Grey_Company.mp3"
+            },
+            {
+              "id": 4,
+              "name": "The Muster Of Rohan",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/03_The_Muster_of_Rohan.mp3"
+            },
+            {
+              "id": 5,
+              "name": "The Siege Of Gondor 1",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/04_The_Siege_of_Gondor_1.mp3"
+            },
+            {
+              "id": 6,
+              "name": "The Siege Of Gondor 2",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/04_The_Siege_of_Gondor_2.mp3"
+            },
+            {
+              "id": 7,
+              "name": "The Ride Of The Rohirrim",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/05_The_Ride_of_the_Rohirrim.mp3"
+            },
+            {
+              "id": 8,
+              "name": "The Battle Of The Pelennor Fields",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/06_The_Battle_of_the_Pelennor_Fields.mp3"
+            },
+            {
+              "id": 9,
+              "name": "The Pyre Of Denethor",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/07_The_Pyre_of_Denethor.mp3"
+            },
+            {
+              "id": 10,
+              "name": "The Houses Of Healing",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/08_The_Houses_of_Healing.mp3"
+            },
+            {
+              "id": 11,
+              "name": "The Last Debate",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/09_The_Last_Debate.mp3"
+            },
+            {
+              "id": 12,
+              "name": "The Black Gate Opens",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/10_The_Black_Gate_Opens.mp3"
+            },
+            {
+              "id": 13,
+              "name": "The Tower Of Cirith Ungol",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/11_The_Tower_of_Cirith_Ungol.mp3"
+            },
+            {
+              "id": 14,
+              "name": "The Land Of Shadow",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/12_The_Land_of_Shadow.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Mount Doom",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/13_Mount_Doom.mp3"
+            },
+            {
+              "id": 16,
+              "name": "The Field Of Cormallen",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/14_The_Field_of_Cormallen.mp3"
+            },
+            {
+              "id": 17,
+              "name": "The Steward And The King",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/15_The_Steward_and_the_King.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Many Partings",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/16_Many_Partings.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Homeward Bound",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/17_Homeward_Bound.mp3"
+            },
+            {
+              "id": 20,
+              "name": "The Scouring Of The Shire",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/18_The_Scouring_of_the_Shire.mp3"
+            },
+            {
+              "id": 21,
+              "name": "The Grey Havens",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/03_The_Return_of_the_King/19_The_Grey_Havens.mp3"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "coverImageName": "hobbit",
+          "name": "The Hobbit",
+          "author": "J.R.R. Tolkien",
+          "releaseYear": "1937",
+          "lengthInMinutes": 622,
+          "narrator": "Rob Inglis",
+          "description": "Bilbo Baggins, a hobbit who enjoys a quiet life, is swept into an unexpected adventure when the wizard Gandalf and a group of dwarves arrive at his door. Together, they set out to reclaim the dwarves' homeland from the dragon Smaug.",
+          "primary": "#8B4513",
+          "secondary": "#FFD700",
+          "tertiary": "#006400",
+          "quaternary": "#2E8B57",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "An Unexpected Party",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/01_An_Unexpected_Party.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Roast Mutton",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/02_Roast_Mutton.mp3"
+            },
+            {
+              "id": 3,
+              "name": "A Short Rest",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/03_A_Short_Rest.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Over Hill Under Hill",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/04_Over_Hill_Under_Hill.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Riddles In The Dark",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/05_Riddles_In_The_Dark.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Out Of The Frying Pan Into The Fire",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/06_Out_Of_The_Frying_Pan_Into_The_Fire.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Queer Lodgings",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/07_Queer_Lodgings.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Flies Spiders",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/08_Flies_Spiders.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Barrels Out Of Bond",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/09_Barrels_Out_Of_Bond.mp3"
+            },
+            {
+              "id": 10,
+              "name": "A Warm Welcome",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/10_A_Warm_Welcome.mp3"
+            },
+            {
+              "id": 11,
+              "name": "On The Doorstep",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/11_On_the_Doorstep.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Inside Information",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/12_Inside_Information.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Not At Home",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/13_Not_at_Home.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Fire And Water",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/14_Fire_and_Water.mp3"
+            },
+            {
+              "id": 15,
+              "name": "The Gathering Of The Clouds",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/15_The_Gathering_of_the_Clouds.mp3"
+            },
+            {
+              "id": 16,
+              "name": "A Thief In The Night",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/16_A_Thief_in_the_Night.mp3"
+            },
+            {
+              "id": 17,
+              "name": "The Clouds Burst",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/17_The_Clouds_Burst.mp3"
+            },
+            {
+              "id": 18,
+              "name": "The Return Journey",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/18_The_Return_Journey.mp3"
+            },
+            {
+              "id": 19,
+              "name": "The Last Stage",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/02_The_Lord_of_the_Rings/04_The_Hobbit/19_The_Last_Stage.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Song of Ice and Fire",
+      "books": [
+        {
+          "id": 1,
+          "coverImageName": "game_of_thrones",
+          "name": "A Game of Thrones",
+          "author": "George R.R. Martin",
+          "releaseYear": "1996",
+          "lengthInMinutes": 864,
+          "narrator": "Roy Dotrice",
+          "description": "In the first book of the epic series, the noble houses of Westeros vie for control of the Iron Throne. As dark forces gather beyond the Wall, the fate of the Seven Kingdoms hangs in the balance.",
+          "primary": "#000000",
+          "secondary": "#708090",
+          "tertiary": "#FFD700",
+          "quaternary": "#8B4513",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Prologue",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/01_Prologue.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 01   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/02_Chapter_01_-_Bran.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/04_Chapter_03_-_Daenerys.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/05_Chapter_04_-_Eddard.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/06_Chapter_05_-_Jon.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 11   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/12_Chapter_11_-_Daenerys.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 12   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/13_Chapter_12_-_Eddard.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 13   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/14_Chapter_13_-_Tyrion.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 14   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/15_Chapter_14_-_Catelyn.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 15   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/16_Chapter_15_-_Sansa.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 18   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/19_Chapter_18_-_Catelyn.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 19   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/20_Chapter_19_-_Jon.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 20   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/21_Chapter_20_-_Eddard.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 21   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/22_Chapter_21_-_Tyrion.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Chapter 22   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/23_Chapter_22_-_Arya.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chapter 23   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/24_Chapter_23_-_Daenerys.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Chapter 24   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/25_Chapter_24_-_Bran.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Chapter 25   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/26_Chapter_25_-_Eddard.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Chapter 26   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/27_Chapter_26_-_Jon.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Chapter 27   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/28_Chapter_27_-_Eddard.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Chapter 28   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/29_Chapter_28_-_Catelyn.mp3"
+            },
+            {
+              "id": 22,
+              "name": "Chapter 29   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/30_Chapter_29_-_Sansa.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Chapter 30   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/31_Chapter_30_-_Eddard.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Chapter 31   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/32_Chapter_31_-_Tyrion.mp3"
+            },
+            {
+              "id": 25,
+              "name": "Chapter 32   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/33_Chapter_32_-_Arya.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Chapter 33   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/34_Chapter_33_-_Eddard.mp3"
+            },
+            {
+              "id": 27,
+              "name": "Chapter 34   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/35_Chapter_34_-_Catelyn.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Chapter 36   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/37_Chapter_36_-_Daenerys.mp3"
+            },
+            {
+              "id": 29,
+              "name": "Chapter 37   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/38_Chapter_37_-_Bran.mp3"
+            },
+            {
+              "id": 30,
+              "name": "Chapter 38   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/39_Chapter_38_-_Tyrion.mp3"
+            },
+            {
+              "id": 31,
+              "name": "Chapter 39   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/40_Chapter_39_-_Eddard.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Chapter 40   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/41_Chapter_40_-_Catelyn.mp3"
+            },
+            {
+              "id": 33,
+              "name": "Chapter 41   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/42_Chapter_41_-_Jon.mp3"
+            },
+            {
+              "id": 34,
+              "name": "Chapter 42   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/43_Chapter_42_-_Tyrion.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Chapter 43   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/44_Chapter_43_-_Eddard.mp3"
+            },
+            {
+              "id": 36,
+              "name": "Chapter 44   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/45_Chapter_44_-_Sansa.mp3"
+            },
+            {
+              "id": 37,
+              "name": "Chapter 45   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/46_Chapter_45_-_Eddard.mp3"
+            },
+            {
+              "id": 38,
+              "name": "Chapter 46   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/47_Chapter_46_-_Daenerys.mp3"
+            },
+            {
+              "id": 39,
+              "name": "Chapter 47   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/48_Chapter_47_-_Eddard.mp3"
+            },
+            {
+              "id": 40,
+              "name": "Chapter 48   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/49_Chapter_48_-_Jon.mp3"
+            },
+            {
+              "id": 41,
+              "name": "Chapter 49   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/50_Chapter_49_-_Eddard.mp3"
+            },
+            {
+              "id": 42,
+              "name": "Chapter 50   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/51_Chapter_50_-_Arya.mp3"
+            },
+            {
+              "id": 43,
+              "name": "Chapter 51   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/52_Chapter_51_-_Sansa.mp3"
+            },
+            {
+              "id": 44,
+              "name": "Chapter 52   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/53_Chapter_52_-_Jon.mp3"
+            },
+            {
+              "id": 45,
+              "name": "Chapter 53   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/54_Chapter_53_-_Bran.mp3"
+            },
+            {
+              "id": 46,
+              "name": "Chapter 54   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/55_Chapter_54_-_Daenerys.mp3"
+            },
+            {
+              "id": 47,
+              "name": "Chapter 55   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/56_Chapter_55_-_Catelyn.mp3"
+            },
+            {
+              "id": 48,
+              "name": "Chapter 56   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/57_Chapter_56_-_Tyrion.mp3"
+            },
+            {
+              "id": 49,
+              "name": "Chapter 57   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/58_Chapter_57_-_Sansa.mp3"
+            },
+            {
+              "id": 50,
+              "name": "Chapter 58   Eddard",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/59_Chapter_58_-_Eddard.mp3"
+            },
+            {
+              "id": 51,
+              "name": "Chapter 59   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/60_Chapter_59_-_Catelyn.mp3"
+            },
+            {
+              "id": 52,
+              "name": "Chapter 60   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/61_Chapter_60_-_Jon.mp3"
+            },
+            {
+              "id": 53,
+              "name": "Chapter 61   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/62_Chapter_61_-_Daenerys.mp3"
+            },
+            {
+              "id": 54,
+              "name": "Chapter 62   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/63_Chapter_62_-_Tyrion.mp3"
+            },
+            {
+              "id": 55,
+              "name": "Chapter 63   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/64_Chapter_63_-_Catelyn.mp3"
+            },
+            {
+              "id": 56,
+              "name": "Chapter 64   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/65_Chapter_64_-_Daenerys.mp3"
+            },
+            {
+              "id": 57,
+              "name": "Chapter 65   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/66_Chapter_65_-_Arya.mp3"
+            },
+            {
+              "id": 58,
+              "name": "Chapter 66   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/67_Chapter_66_-_Bran.mp3"
+            },
+            {
+              "id": 59,
+              "name": "Chapter 67   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/68_Chapter_67_-_Sansa.mp3"
+            },
+            {
+              "id": 60,
+              "name": "Chapter 68   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/69_Chapter_68_-_Daenerys.mp3"
+            },
+            {
+              "id": 61,
+              "name": "Chapter 70   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/71_Chapter_70_-_Jon.mp3"
+            },
+            {
+              "id": 62,
+              "name": "Chapter 71   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/72_Chapter_71_-_Catelyn.mp3"
+            },
+            {
+              "id": 63,
+              "name": "Chapter 72   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/01_A_Game_of_Thrones/73_Chapter_72_-_Daenerys.mp3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "coverImageName": "clash_of_kings",
+          "name": "A Clash of Kings",
+          "author": "George R.R. Martin",
+          "releaseYear": "1998",
+          "lengthInMinutes": 1009,
+          "narrator": "Roy Dotrice",
+          "description": "In the second book of the series, the War of the Five Kings rages across Westeros as rival claimants fight for the Iron Throne. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne in the east.",
+          "primary": "#000000",
+          "secondary": "#708090",
+          "tertiary": "#FFD700",
+          "quaternary": "#8B4513",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Prologue",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/01_Prologue.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/03_Chapter_02_-_Sansa.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/04_Chapter_03_-_Tyrion.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/05_Chapter_04_-_Bran.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/06_Chapter_05_-_Arya.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/07_Chapter_06_-_Jon.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/08_Chapter_07_-_Catelyn.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/09_Chapter_08_-_Tyrion.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/10_Chapter_09_-_Arya.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 10   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/11_Chapter_10_-_Davos.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 11   Theon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/12_Chapter_11_-_Theon.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 12   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/13_Chapter_12_-_Daenerys.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 13   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/14_Chapter_13_-_Jon.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 14   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/15_Chapter_14_-_Arya.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Chapter 15   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/16_Chapter_15_-_Tyrion.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chapter 16   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/17_Chapter_16_-_Bran.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Chapter 17   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/18_Chapter_17_-_Tyrion.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Chapter 19   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/20_Chapter_19_-_Arya.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Chapter 20   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/21_Chapter_20_-_Tyrion.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Chapter 21   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/22_Chapter_21_-_Bran.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Chapter 22   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/23_Chapter_22_-_Catelyn.mp3"
+            },
+            {
+              "id": 22,
+              "name": "Chapter 23   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/24_Chapter_23_-_Jon.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Chapter 24   Theon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/25_Chapter_24_-_Theon.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Chapter 25   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/26_Chapter_25_-_Tyrion.mp3"
+            },
+            {
+              "id": 25,
+              "name": "Chapter 27   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/28_Chapter_27_-_Daenerys.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Chapter 28   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/29_Chapter_28_-_Bran.mp3"
+            },
+            {
+              "id": 27,
+              "name": "Chapter 29   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/30_Chapter_29_-_Tyrion.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Chapter 30   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/31_Chapter_30_-_Arya.mp3"
+            },
+            {
+              "id": 29,
+              "name": "Chapter 31   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/32_Chapter_31_-_Catelyn.mp3"
+            },
+            {
+              "id": 30,
+              "name": "Chapter 32   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/33_Chapter_32_-_Sansa.mp3"
+            },
+            {
+              "id": 31,
+              "name": "Chapter 33   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/34_Chapter_33_-_Catelyn.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Chapter 34   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/35_Chapter_34_-_Jon.mp3"
+            },
+            {
+              "id": 33,
+              "name": "Chapter 36   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/37_Chapter_36_-_Tyrion.mp3"
+            },
+            {
+              "id": 34,
+              "name": "Chapter 37   Theon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/38_Chapter_37_-_Theon.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Chapter 39   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/40_Chapter_39_-_Catelyn.mp3"
+            },
+            {
+              "id": 36,
+              "name": "Chapter 40   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/41_Chapter_40_-_Daenerys.mp3"
+            },
+            {
+              "id": 37,
+              "name": "Chapter 41   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/42_Chapter_41_-_Tyrion.mp3"
+            },
+            {
+              "id": 38,
+              "name": "Chapter 42   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/43_Chapter_42_-_Davos.mp3"
+            },
+            {
+              "id": 39,
+              "name": "Chapter 43   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/44_Chapter_43_-_Jon.mp3"
+            },
+            {
+              "id": 40,
+              "name": "Chapter 44   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/45_Chapter_44_-_Tyrion.mp3"
+            },
+            {
+              "id": 41,
+              "name": "Chapter 45   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/46_Chapter_45_-_Catelyn.mp3"
+            },
+            {
+              "id": 42,
+              "name": "Chapter 46   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/47_Chapter_46_-_Bran.mp3"
+            },
+            {
+              "id": 43,
+              "name": "Chapter 47   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/48_Chapter_47_-_Arya.mp3"
+            },
+            {
+              "id": 44,
+              "name": "Chapter 48   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/49_Chapter_48_-_Daenerys.mp3"
+            },
+            {
+              "id": 45,
+              "name": "Chapter 49   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/50_Chapter_49_-_Tyrion.mp3"
+            },
+            {
+              "id": 46,
+              "name": "Chapter 50   Theon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/51_Chapter_50_-_Theon.mp3"
+            },
+            {
+              "id": 47,
+              "name": "Chapter 51   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/52_Chapter_51_-_Jon.mp3"
+            },
+            {
+              "id": 48,
+              "name": "Chapter 52   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/53_Chapter_52_-_Sansa.mp3"
+            },
+            {
+              "id": 49,
+              "name": "Chapter 53   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/54_Chapter_53_-_Jon.mp3"
+            },
+            {
+              "id": 50,
+              "name": "Chapter 54   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/55_Chapter_54_-_Tyrion.mp3"
+            },
+            {
+              "id": 51,
+              "name": "Chapter 55   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/56_Chapter_55_-_Catelyn.mp3"
+            },
+            {
+              "id": 52,
+              "name": "Chapter 56   Theon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/57_Chapter_56_-_Theon.mp3"
+            },
+            {
+              "id": 53,
+              "name": "Chapter 58   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/59_Chapter_58_-_Davos.mp3"
+            },
+            {
+              "id": 54,
+              "name": "Chapter 60   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/61_Chapter_60_-_Sansa.mp3"
+            },
+            {
+              "id": 55,
+              "name": "Chapter 61   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/62_Chapter_61_-_Tyrion.mp3"
+            },
+            {
+              "id": 56,
+              "name": "Chapter 62   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/63_Chapter_62_-_Sansa.mp3"
+            },
+            {
+              "id": 57,
+              "name": "Chapter 63   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/64_Chapter_63_-_Daenerys.mp3"
+            },
+            {
+              "id": 58,
+              "name": "Chapter 64   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/65_Chapter_64_-_Arya.mp3"
+            },
+            {
+              "id": 59,
+              "name": "Chapter 65   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/66_Chapter_65_-_Sansa.mp3"
+            },
+            {
+              "id": 60,
+              "name": "Chapter 66   Theon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/67_Chapter_66_-_Theon.mp3"
+            },
+            {
+              "id": 61,
+              "name": "Chapter 67   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/68_Chapter_67_-_Tyrion.mp3"
+            },
+            {
+              "id": 62,
+              "name": "Chapter 68   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/69_Chapter_68_-_Jon.mp3"
+            },
+            {
+              "id": 63,
+              "name": "Chapter 69   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/02_A_Clash_of_Kings/70_Chapter_69_-_Bran.mp3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "coverImageName": "storm_of_swords",
+          "name": "A Storm of Swords",
+          "author": "George R.R. Martin",
+          "releaseYear": "2000",
+          "lengthInMinutes": 1177,
+          "narrator": "Roy Dotrice",
+          "description": "In the third book of the series, the War of the Five Kings reaches its climax as the fate of Westeros is decided. Meanwhile, Jon Snow and the Night's Watch face the threat of the wildlings and the White Walkers beyond the Wall.",
+          "primary": "#000000",
+          "secondary": "#708090",
+          "tertiary": "#FFD700",
+          "quaternary": "#8B4513",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Prologue",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/01_Prologue.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 01   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/02_Chapter_01_-_Jaime.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 02   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/03_Chapter_02_-_Catelyn.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 03   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/04_Chapter_03_-_Arya.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 04   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/05_Chapter_04_-_Tyrion.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 05   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/06_Chapter_05_-_Davos.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 06   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/07_Chapter_06_-_Sansa.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 07   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/08_Chapter_07_-_Jon.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 08   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/09_Chapter_08_-_Daenerys.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 09   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/10_Chapter_09_-_Bran.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 10   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/11_Chapter_10_-_Davos.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 11   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/12_Chapter_11_-_Jaime.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 12   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/13_Chapter_12_-_Tyrion.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 13   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/14_Chapter_13_-_Arya.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Chapter 14   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/15_Chapter_14_-_Catelyn.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chapter 15   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/16_Chapter_15_-_Jon.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Chapter 16   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/17_Chapter_16_-_Sansa.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Chapter 17   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/18_Chapter_17_-_Arya.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Chapter 18   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/19_Chapter_18_-_Samwell.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Chapter 19   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/20_Chapter_19_-_Tyrion.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Chapter 20   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/21_Chapter_20_-_Catelyn.mp3"
+            },
+            {
+              "id": 22,
+              "name": "Chapter 21   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/22_Chapter_21_-_Jaime.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Chapter 22   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/23_Chapter_22_-_Arya.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Chapter 23   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/24_Chapter_23_-_Daenerys.mp3"
+            },
+            {
+              "id": 25,
+              "name": "Chapter 24   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/25_Chapter_24_-_Bran.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Chapter 25   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/26_Chapter_25_-_Davos.mp3"
+            },
+            {
+              "id": 27,
+              "name": "Chapter 26   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/27_Chapter_26_-_Jon.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Chapter 27   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/28_Chapter_27_-_Daenerys.mp3"
+            },
+            {
+              "id": 29,
+              "name": "Chapter 28   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/29_Chapter_28_-_Sansa.mp3"
+            },
+            {
+              "id": 30,
+              "name": "Chapter 29   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/30_Chapter_29_-_Arya.mp3"
+            },
+            {
+              "id": 31,
+              "name": "Chapter 30   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/31_Chapter_30_-_Jon.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Chapter 31   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/32_Chapter_31_-_Jaime.mp3"
+            },
+            {
+              "id": 33,
+              "name": "Chapter 32   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/33_Chapter_32_-_Tyrion.mp3"
+            },
+            {
+              "id": 34,
+              "name": "Chapter 33   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/34_Chapter_33_-_Samwell.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Chapter 34   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/35_Chapter_34_-_Arya.mp3"
+            },
+            {
+              "id": 36,
+              "name": "Chapter 35   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/36_Chapter_35_-_Catelyn.mp3"
+            },
+            {
+              "id": 37,
+              "name": "Chapter 36   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/37_Chapter_36_-_Davos.mp3"
+            },
+            {
+              "id": 38,
+              "name": "Chapter 37   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/38_Chapter_37_-_Jaime.mp3"
+            },
+            {
+              "id": 39,
+              "name": "Chapter 38   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/39_Chapter_38_-_Tyrion.mp3"
+            },
+            {
+              "id": 40,
+              "name": "Chapter 39   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/40_Chapter_39_-_Arya.mp3"
+            },
+            {
+              "id": 41,
+              "name": "Chapter 40   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/41_Chapter_40_-_Bran.mp3"
+            },
+            {
+              "id": 42,
+              "name": "Chapter 41   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/42_Chapter_41_-_Jon.mp3"
+            },
+            {
+              "id": 43,
+              "name": "Chapter 42   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/43_Chapter_42_-_Daenerys.mp3"
+            },
+            {
+              "id": 44,
+              "name": "Chapter 43   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/44_Chapter_43_-_Arya.mp3"
+            },
+            {
+              "id": 45,
+              "name": "Chapter 44   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/45_Chapter_44_-_Jaime.mp3"
+            },
+            {
+              "id": 46,
+              "name": "Chapter 45   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/46_Chapter_45_-_Catelyn.mp3"
+            },
+            {
+              "id": 47,
+              "name": "Chapter 46   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/47_Chapter_46_-_Samwell.mp3"
+            },
+            {
+              "id": 48,
+              "name": "Chapter 47   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/48_Chapter_47_-_Arya.mp3"
+            },
+            {
+              "id": 49,
+              "name": "Chapter 48   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/49_Chapter_48_-_Jon.mp3"
+            },
+            {
+              "id": 50,
+              "name": "Chapter 49   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/50_Chapter_49_-_Catelyn.mp3"
+            },
+            {
+              "id": 51,
+              "name": "Chapter 50   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/51_Chapter_50_-_Arya.mp3"
+            },
+            {
+              "id": 52,
+              "name": "Chapter 51   Catelyn",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/52_Chapter_51_-_Catelyn.mp3"
+            },
+            {
+              "id": 53,
+              "name": "Chapter 52   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/53_Chapter_52_-_Arya.mp3"
+            },
+            {
+              "id": 54,
+              "name": "Chapter 53   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/54_Chapter_53_-_Tyrion.mp3"
+            },
+            {
+              "id": 55,
+              "name": "Chapter 54   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/55_Chapter_54_-_Davos.mp3"
+            },
+            {
+              "id": 56,
+              "name": "Chapter 55   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/56_Chapter_55_-_Jon.mp3"
+            },
+            {
+              "id": 57,
+              "name": "Chapter 56   Bran",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/57_Chapter_56_-_Bran.mp3"
+            },
+            {
+              "id": 58,
+              "name": "Chapter 57   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/58_Chapter_57_-_Daenerys.mp3"
+            },
+            {
+              "id": 59,
+              "name": "Chapter 58   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/59_Chapter_58_-_Tyrion.mp3"
+            },
+            {
+              "id": 60,
+              "name": "Chapter 59   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/60_Chapter_59_-_Sansa.mp3"
+            },
+            {
+              "id": 61,
+              "name": "Chapter 60   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/61_Chapter_60_-_Tyrion.mp3"
+            },
+            {
+              "id": 62,
+              "name": "Chapter 61   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/62_Chapter_61_-_Sansa.mp3"
+            },
+            {
+              "id": 63,
+              "name": "Chapter 62   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/63_Chapter_62_-_Jaime.mp3"
+            },
+            {
+              "id": 64,
+              "name": "Chapter 63   Davos",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/64_Chapter_63_-_Davos.mp3"
+            },
+            {
+              "id": 65,
+              "name": "Chapter 64   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/65_Chapter_64_-_Jon.mp3"
+            },
+            {
+              "id": 66,
+              "name": "Chapter 65   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/66_Chapter_65_-_Arya.mp3"
+            },
+            {
+              "id": 67,
+              "name": "Chapter 66   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/67_Chapter_66_-_Tyrion.mp3"
+            },
+            {
+              "id": 68,
+              "name": "Chapter 67   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/68_Chapter_67_-_Jaime.mp3"
+            },
+            {
+              "id": 69,
+              "name": "Chapter 68   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/69_Chapter_68_-_Sansa.mp3"
+            },
+            {
+              "id": 70,
+              "name": "Chapter 69   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/70_Chapter_69_-_Jon.mp3"
+            },
+            {
+              "id": 71,
+              "name": "Chapter 70   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/71_Chapter_70_-_Tyrion.mp3"
+            },
+            {
+              "id": 72,
+              "name": "Chapter 71   Daenerys",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/72_Chapter_71_-_Daenerys.mp3"
+            },
+            {
+              "id": 73,
+              "name": "Chapter 72   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/73_Chapter_72_-_Jaime.mp3"
+            },
+            {
+              "id": 74,
+              "name": "Chapter 73   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/74_Chapter_73_-_Jon.mp3"
+            },
+            {
+              "id": 75,
+              "name": "Chapter 74   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/75_Chapter_74_-_Arya.mp3"
+            },
+            {
+              "id": 76,
+              "name": "Chapter 75   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/76_Chapter_75_-_Samwell.mp3"
+            },
+            {
+              "id": 77,
+              "name": "Chapter 76   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/77_Chapter_76_-_Jon.mp3"
+            },
+            {
+              "id": 78,
+              "name": "Chapter 77   Tyrion",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/78_Chapter_77_-_Tyrion.mp3"
+            },
+            {
+              "id": 79,
+              "name": "Chapter 78   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/79_Chapter_78_-_Samwell.mp3"
+            },
+            {
+              "id": 80,
+              "name": "Chapter 79   Jon",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/80_Chapter_79_-_Jon.mp3"
+            },
+            {
+              "id": 81,
+              "name": "Chapter 80   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/81_Chapter_80_-_Sansa.mp3"
+            },
+            {
+              "id": 82,
+              "name": "Epilogue",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/03_A_Storm_of_Swords/82_Epilogue.mp3"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "coverImageName": "feast_for_crows",
+          "name": "A Feast for Crows",
+          "author": "George R.R. Martin",
+          "releaseYear": "2005",
+          "lengthInMinutes": 1080,
+          "narrator": "Roy Dotrice",
+          "description": "In the fourth book of the series, the aftermath of the War of the Five Kings is felt across Westeros as new power struggles emerge. Meanwhile, Daenerys Targaryen faces challenges in her quest to reclaim the Iron Throne.",
+          "primary": "#000000",
+          "secondary": "#708090",
+          "tertiary": "#FFD700",
+          "quaternary": "#8B4513",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Prologue",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/01_Prologue.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 01   The Prophet",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/02_Chapter_01_-_The_Prophet.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 02   The Captain Of Guards",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/03_Chapter_02_-_The_Captain_of_Guards.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 03   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/04_Chapter_03_-_Cersei.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 04   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/05_Chapter_04_-_Brienne.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 05   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/06_Chapter_05_-_Samwell.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 06   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/07_Chapter_06_-_Arya.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 07   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/08_Chapter_07_-_Cersei.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 08   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/09_Chapter_08_-_Jaime.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 09   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/10_Chapter_09_-_Brienne.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 10   Sansa",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/11_Chapter_10_-_Sansa.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 11   The Kraken S Daughter",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/12_Chapter_11_-_The_Kraken_s_Daughter.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 12   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/13_Chapter_12_-_Cersei.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 13   The Soiled Knight",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/14_Chapter_13_-_The_Soiled_Knight.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Chapter 14   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/15_Chapter_14_-_Brienne.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chapter 15   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/16_Chapter_15_-_Samwell.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Chapter 16   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/17_Chapter_16_-_Jaime.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Chapter 17   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/18_Chapter_17_-_Cersei.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Chapter 18   The Iron Captain",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/19_Chapter_18_-_The_Iron_Captain.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Chapter 19   The Drowned Man",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/20_Chapter_19_-_The_Drowned_Man.mp3"
+            },
+            {
+              "id": 21,
+              "name": "Chapter 20   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/21_Chapter_20_-_Brienne.mp3"
+            },
+            {
+              "id": 22,
+              "name": "Chapter 21   The Queenmaker",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/22_Chapter_21_-_The_Queenmaker.mp3"
+            },
+            {
+              "id": 23,
+              "name": "Chapter 22   Arya",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/23_Chapter_22_-_Arya.mp3"
+            },
+            {
+              "id": 24,
+              "name": "Chapter 23   Alayne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/24_Chapter_23_-_Alayne.mp3"
+            },
+            {
+              "id": 25,
+              "name": "Chapter 24   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/25_Chapter_24_-_Cersei.mp3"
+            },
+            {
+              "id": 26,
+              "name": "Chapter 25   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/26_Chapter_25_-_Brienne.mp3"
+            },
+            {
+              "id": 27,
+              "name": "Chapter 26   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/27_Chapter_26_-_Samwell.mp3"
+            },
+            {
+              "id": 28,
+              "name": "Chapter 27   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/28_Chapter_27_-_Jaime.mp3"
+            },
+            {
+              "id": 29,
+              "name": "Chapter 28   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/29_Chapter_28_-_Cersei.mp3"
+            },
+            {
+              "id": 30,
+              "name": "Chapter 29   The Reaver",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/30_Chapter_29_-_The_Reaver.mp3"
+            },
+            {
+              "id": 31,
+              "name": "Chapter 30   Jamie",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/31_Chapter_30_-_Jamie.mp3"
+            },
+            {
+              "id": 32,
+              "name": "Chapter 31   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/32_Chapter_31_-_Brienne.mp3"
+            },
+            {
+              "id": 33,
+              "name": "Chapter 32   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/33_Chapter_32_-_Cersei.mp3"
+            },
+            {
+              "id": 34,
+              "name": "Chapter 33   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/34_Chapter_33_-_Jaime.mp3"
+            },
+            {
+              "id": 35,
+              "name": "Chapter 34   Cat Of The Canals",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/35_Chapter_34_-_Cat_of_the_Canals.mp3"
+            },
+            {
+              "id": 36,
+              "name": "Chapter 35   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/36_Chapter_35_-_Samwell.mp3"
+            },
+            {
+              "id": 37,
+              "name": "Chapter 36   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/37_Chapter_36_-_Cersei.mp3"
+            },
+            {
+              "id": 38,
+              "name": "Chapter 37   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/38_Chapter_37_-_Brienne.mp3"
+            },
+            {
+              "id": 39,
+              "name": "Chapter 38   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/39_Chapter_38_-_Jaime.mp3"
+            },
+            {
+              "id": 40,
+              "name": "Chapter 39   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/40_Chapter_39_-_Cersei.mp3"
+            },
+            {
+              "id": 41,
+              "name": "Chapter 40   The Princess In The Tower",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/41_Chapter_40_-_The_Princess_in_the_Tower.mp3"
+            },
+            {
+              "id": 42,
+              "name": "Chapter 41   Alayne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/42_Chapter_41_-_Alayne.mp3"
+            },
+            {
+              "id": 43,
+              "name": "Chapter 42   Brienne",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/43_Chapter_42_-_Brienne.mp3"
+            },
+            {
+              "id": 44,
+              "name": "Chapter 43   Cersei",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/44_Chapter_43_-_Cersei.mp3"
+            },
+            {
+              "id": 45,
+              "name": "Chapter 44   Jaime",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/45_Chapter_44_-_Jaime.mp3"
+            },
+            {
+              "id": 46,
+              "name": "Chapter 45   Samwell",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/03_A_Song_of_Ice_and_Fire/04_A_Feast_For_Crows/46_Chapter_45_-_Samwell.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Chronicles of Narnia",
+      "books": [
+        {
+          "id": 1,
+          "coverImageName": "the_lion_the_witch_and_the_wardrobe",
+          "name": "The Lion, the Witch and the Wardrobe",
+          "author": "C.S. Lewis",
+          "releaseYear": "1950",
+          "lengthInMinutes": 270,
+          "narrator": "Michael York",
+          "description": "Four siblings discover a magical world through a wardrobe in this classic tale of good versus evil. As they journey through Narnia, they encounter talking animals, mythical creatures, and the powerful lion Aslan.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/07_Chapter_07.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/08_Chapter_08.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/01_The_Lion,_the_Witch_and_the_Wardrobe/09_Chapter_09.mp3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "coverImageName": "prince_caspian",
+          "name": "Prince Caspian",
+          "author": "C.S. Lewis",
+          "releaseYear": "1951",
+          "lengthInMinutes": 270,
+          "narrator": "Lynn Redgrave",
+          "description": "The Pevensie siblings return to Narnia to help Prince Caspian reclaim his throne from his evil uncle Miraz. Along the way, they encounter old friends, new enemies, and embark on a quest to restore Narnia to its former glory.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 10",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/01_Chapter_10.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 11",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/02_Chapter_11.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 12",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/03_Chapter_12.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 13",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/04_Chapter_13.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 14",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/05_Chapter_14.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 15",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/06_Chapter_15.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 16",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/07_Chapter_16.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 17",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/08_Chapter_17.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 18",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/09_Chapter_18.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 19",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/10_Chapter_19.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 20",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/11_Chapter_20.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 21",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/12_Chapter_21.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 22",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/13_Chapter_22.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 23",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/04_The_Chronicles_of_Narnia/02_Prince_Caspian/14_Chapter_23.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Witcher",
+      "books": [
+        {
+          "id": 1,
+          "coverImageName": "the_last_wish",
+          "name": "The Last Wish",
+          "author": "Andrzej Sapkowski",
+          "releaseYear": "1993",
+          "lengthInMinutes": 540,
+          "narrator": "Peter Kenny",
+          "description": "This collection of short stories introduces readers to Geralt of Rivia, a monster hunter known as a Witcher. As Geralt navigates a world filled with magic, politics, and treachery, he must confront his own destiny and the dark forces that threaten the realm.",
+          "primary": "#000000",
+          "secondary": "#708090",
+          "tertiary": "#FFD700",
+          "quaternary": "#8B4513",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/07_Chapter_07.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/08_Chapter_08.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/09_Chapter_09.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 10",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/10_Chapter_10.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 11",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/11_Chapter_11.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 12",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/12_Chapter_12.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 13",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/13_Chapter_13.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 14",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/14_Chapter_14.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Chapter 15",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/15_Chapter_15.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chapter 16",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/16_Chapter_16.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Chapter 17",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/17_Chapter_17.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Chapter 18",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/18_Chapter_18.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Chapter 19",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/19_Chapter_19.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Chapter 20",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/01_The_Last_Wish/20_Chapter_20.mp3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "coverImageName": "blood_of_elves",
+          "name": "Blood of Elves",
+          "author": "Andrzej Sapkowski",
+          "releaseYear": "1994",
+          "lengthInMinutes": 540,
+          "narrator": "Peter Kenny",
+          "description": "As war rages across the land, Geralt of Rivia takes on a new mission to protect Ciri, a young princess with a powerful destiny. Alongside his companions, Geralt must navigate a world of political intrigue, magical threats, and ancient prophecies to ensure Ciri's survival and fulfill her potential.",
+          "primary": "#000000",
+          "secondary": "#708090",
+          "tertiary": "#FFD700",
+          "quaternary": "#8B4513",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/07_Chapter_07.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/08_Chapter_08.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/09_Chapter_09.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 10",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/10_Chapter_10.mp3"
+            },
+            {
+              "id": 11,
+              "name": "Chapter 11",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/11_Chapter_11.mp3"
+            },
+            {
+              "id": 12,
+              "name": "Chapter 12",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/12_Chapter_12.mp3"
+            },
+            {
+              "id": 13,
+              "name": "Chapter 13",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/13_Chapter_13.mp3"
+            },
+            {
+              "id": 14,
+              "name": "Chapter 14",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/14_Chapter_14.mp3"
+            },
+            {
+              "id": 15,
+              "name": "Chapter 15",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/15_Chapter_15.mp3"
+            },
+            {
+              "id": 16,
+              "name": "Chapter 16",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/16_Chapter_16.mp3"
+            },
+            {
+              "id": 17,
+              "name": "Chapter 17",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/17_Chapter_17.mp3"
+            },
+            {
+              "id": 18,
+              "name": "Chapter 18",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/18_Chapter_18.mp3"
+            },
+            {
+              "id": 19,
+              "name": "Chapter 19",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/19_Chapter_19.mp3"
+            },
+            {
+              "id": 20,
+              "name": "Chapter 20",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/05_The_Witcher/02_Blood_of_Elves/20_Chapter_20.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Percy Jackson & the Olympians",
+      "books": [
+        {
+          "id": 1,
+          "coverImageName": "the_lightning_thief",
+          "name": "The Lightning Thief",
+          "author": "Rick Riordan",
+          "releaseYear": "2005",
+          "lengthInMinutes": 360,
+          "narrator": "Jesse Bernstein",
+          "description": "Percy Jackson discovers he is a demigod, the son of Poseidon, and embarks on a quest to prevent a war among the gods. Along the way, he must navigate a world of monsters, magic, and ancient prophecies, all while uncovering the truth about his own identity.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/07_Chapter_07.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/08_Chapter_08.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/01_The_Lightning_Thief/09_Chapter_09.mp3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "coverImageName": "the_sea_of_monsters",
+          "name": "The Sea of Monsters",
+          "author": "Rick Riordan",
+          "releaseYear": "2006",
+          "lengthInMinutes": 360,
+          "narrator": "Jesse Bernstein",
+          "description": "Percy Jackson and his friends embark on a quest to find the mythical Golden Fleece, which has the power to save their home, Camp Half-Blood. Along the way, they encounter new allies, face old enemies, and confront the challenges of the Sea of Monsters.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/02_The_Sea_Of_Monsters/07_Chapter_07.mp3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "coverImageName": "the_titans_curse",
+          "name": "The Titan's Curse",
+          "author": "Rick Riordan",
+          "releaseYear": "2007",
+          "lengthInMinutes": 360,
+          "narrator": "Jesse Bernstein",
+          "description": "When the goddess Artemis goes missing, Percy Jackson and his friends must embark on a quest to rescue her and prevent a war among the gods. Along the way, they encounter new allies, face old enemies, and confront the challenges of the Titan's Curse.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/03_The_Titans_Curse/07_Chapter_07.mp3"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "coverImageName": "the_battle_of_the_labyrinth",
+          "name": "The Battle of the Labyrinth",
+          "author": "Rick Riordan",
+          "releaseYear": "2008",
+          "lengthInMinutes": 360,
+          "narrator": "Jesse Bernstein",
+          "description": "Percy Jackson and his friends must navigate the treacherous Labyrinth to prevent the rise of the Titan lord Kronos. Along the way, they encounter new allies, face old enemies, and confront the challenges of the Battle of the Labyrinth.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/07_Chapter_07.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/08_Chapter_08.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/09_Chapter_09.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 10",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/04_The_Battle_Of_The_Labyrinth/10_Chapter_10.mp3"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "coverImageName": "the_last_olympian",
+          "name": "The Last Olympian",
+          "author": "Rick Riordan",
+          "releaseYear": "2009",
+          "lengthInMinutes": 360,
+          "narrator": "Jesse Bernstein",
+          "description": "As the final battle between the gods and the Titans looms, Percy Jackson and his friends must defend Olympus and prevent the destruction of Western civilization. Along the way, they encounter new allies, face old enemies, and confront the challenges of the Last Olympian.",
+          "primary": "#000000",
+          "secondary": "#FFD700",
+          "tertiary": "#8B4513",
+          "quaternary": "#708090",
+          "chapters": [
+            {
+              "id": 1,
+              "name": "Chapter 01",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/01_Chapter_01.mp3"
+            },
+            {
+              "id": 2,
+              "name": "Chapter 02",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/02_Chapter_02.mp3"
+            },
+            {
+              "id": 3,
+              "name": "Chapter 03",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/03_Chapter_03.mp3"
+            },
+            {
+              "id": 4,
+              "name": "Chapter 04",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/04_Chapter_04.mp3"
+            },
+            {
+              "id": 5,
+              "name": "Chapter 05",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/05_Chapter_05.mp3"
+            },
+            {
+              "id": 6,
+              "name": "Chapter 06",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/06_Chapter_06.mp3"
+            },
+            {
+              "id": 7,
+              "name": "Chapter 07",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/07_Chapter_07.mp3"
+            },
+            {
+              "id": 8,
+              "name": "Chapter 08",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/08_Chapter_08.mp3"
+            },
+            {
+              "id": 9,
+              "name": "Chapter 09",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/09_Chapter_09.mp3"
+            },
+            {
+              "id": 10,
+              "name": "Chapter 10",
+              "url": "https://github.com/Daniel6702/AudioFiles/raw/main/06_Percy_Jackson_And_The_Olympians/05_The_Last_Olympian/10_Chapter_10.mp3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
