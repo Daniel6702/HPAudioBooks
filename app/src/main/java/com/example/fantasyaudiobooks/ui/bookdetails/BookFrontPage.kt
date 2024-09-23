@@ -20,6 +20,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.CalendarToday
 import androidx.compose.material.icons.filled.Favorite
@@ -50,39 +51,23 @@ import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
 import com.example.fantasyaudiobooks.data.model.Book
+import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
+import com.example.fantasyaudiobooks.utils.formatLength
 
 data class AudioBook(val bookData: Book) {
     val coverImageAssetPath: String
         get() = "file:///android_asset/cover_images/${bookData.coverImageName}.jpg"
 }
 
-fun isBookFavorite(sharedPreferences: SharedPreferences, bookTitle: String): Boolean {
-    val favorites = sharedPreferences.getStringSet("favorites", emptySet()) ?: emptySet()
-    return favorites.contains(bookTitle)
-}
-
-private fun toggleFavorite(sharedPreferences: SharedPreferences, bookId: String) {
-    val editor = sharedPreferences.edit()
-    val favorites = sharedPreferences.getStringSet("favorites", emptySet())?.toMutableSet() ?: mutableSetOf()
-
-    if (favorites.contains(bookId)) {
-        favorites.remove(bookId)
-    } else {
-        favorites.add(bookId)
-    }
-
-    editor.putStringSet("favorites", favorites).apply()
-}
-
 @OptIn(ExperimentalCoilApi::class)
 @Composable
 fun BookFrontPage(audioBook: AudioBook, onBackClick: () -> Unit, onListenClick: () -> Unit) {
     val context = LocalContext.current
-    val sharedPreferences = context.getSharedPreferences("favorites_prefs", Context.MODE_PRIVATE)
-    val isFavorite = remember { mutableStateOf(isBookFavorite(sharedPreferences, audioBook.bookData.name)) }
+    val sharedPreferencesUtils = SharedPreferencesUtils(context)
+    val isFavorite = remember { mutableStateOf(sharedPreferencesUtils.isBookFavorite(audioBook.bookData.name)) }
 
     fun toggleFavoriteGUI() {
-        toggleFavorite(sharedPreferences, audioBook.bookData.name)
+        sharedPreferencesUtils.toggleFavorite(audioBook.bookData.name)
         isFavorite.value = !isFavorite.value
     }
 
@@ -122,7 +107,7 @@ fun BookFrontPage(audioBook: AudioBook, onBackClick: () -> Unit, onListenClick: 
                         .background(color = Color.Black.copy(alpha = 0.7f), shape = CircleShape)
                 ) {
                     Icon(
-                        imageVector = Icons.Default.ArrowBack,
+                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                         contentDescription = "Back",
                         tint = Color.White,
                         modifier = Modifier.size(24.dp) // Adjust icon size to fit inside the circle
@@ -245,15 +230,5 @@ fun BookFrontPage(audioBook: AudioBook, onBackClick: () -> Unit, onListenClick: 
 
             Spacer(modifier = Modifier.height(24.dp))
         }
-    }
-}
-
-fun formatLength(lengthInMinutes: Int): String {
-    val hours = lengthInMinutes / 60
-    val minutes = lengthInMinutes % 60
-    return if (hours > 0) {
-        "$hours hr ${minutes} min"
-    } else {
-        "$minutes min"
     }
 }

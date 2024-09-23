@@ -15,6 +15,7 @@ import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
 import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
+import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
 
 class MediaPlayerActivity : ComponentActivity() {
 
@@ -30,10 +31,9 @@ class MediaPlayerActivity : ComponentActivity() {
         bookSeriesList = bookRepository.getBookSeries()
         selectedBook = intent.getParcelableExtra("selectedBook")!!
 
-        saveToRecentBooks(selectedBook.name)
-
-        // Load saved progress
-        val (chapterIndex, position) = viewModel.loadProgress(selectedBook.name)
+        val sharedPreferencesUtils = SharedPreferencesUtils(this@MediaPlayerActivity)
+        sharedPreferencesUtils.saveToRecentBooks(selectedBook.name)
+        val (chapterIndex, position) = sharedPreferencesUtils.loadProgress(selectedBook.name)
 
         setContent {
             FantasyAudiobooksTheme {
@@ -60,23 +60,6 @@ class MediaPlayerActivity : ComponentActivity() {
             }
         }
 
-    }
-
-    private fun saveToRecentBooks(bookTitle: String) {
-        val sharedPreferences = getSharedPreferences("recent_books_prefs", Context.MODE_PRIVATE)
-        val editor = sharedPreferences.edit()
-
-        var recentBooks = sharedPreferences.getStringSet("recent_books", LinkedHashSet<String>())?.toMutableList() ?: mutableListOf()
-
-        recentBooks.remove(bookTitle)
-
-        recentBooks.add(0, bookTitle)
-
-        if (recentBooks.size > 10) {
-            recentBooks = recentBooks.take(10).toMutableList()
-        }
-
-        editor.putStringSet("recent_books", recentBooks.toSet()).apply()
     }
 }
 

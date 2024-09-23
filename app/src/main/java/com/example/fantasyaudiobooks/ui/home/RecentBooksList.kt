@@ -14,15 +14,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.ui.common.BookListItem
-
-fun getRecentBooks(context: Context): List<String> {
-    val sharedPreferences = context.getSharedPreferences("recent_books_prefs", Context.MODE_PRIVATE)
-    return sharedPreferences.getStringSet("recent_books", emptySet())?.toList() ?: emptyList()
-}
+import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
 
 @Composable
 fun RecentBooksList(books: List<Book>, context: Context, onBookClick: (Book) -> Unit) {
-    val recentBookTitles = getRecentBooks(context)
+    val recentBookTitles = SharedPreferencesUtils(context).getRecentBooks()
     val recentBooks = books.filter { recentBookTitles.contains(it.name) }
 
     if (recentBooks.isNotEmpty()) {

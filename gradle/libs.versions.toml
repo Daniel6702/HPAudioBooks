@@ -14,6 +14,7 @@ accompanistCoil = "0.15.0"
 material3 = "1.0.0"
 runtimeLivedata = "1.7.1"
 media = "1.6.0"
+uiDesktop = "1.7.0"
 
 [libraries]
 androidxMedia = { module = "androidx.media:media", version.ref = "media" }
@@ -41,6 +42,7 @@ composeFoundation = { module = "androidx.compose.foundation:foundation", version
 accompanistCoil = { module = "com.google.accompanist:accompanist-coil", version.ref = "accompanistCoil" }
 compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "compose" }
 androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+androidx-ui-desktop = { group = "androidx.compose.ui", name = "ui-desktop", version.ref = "uiDesktop" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -10,6 +10,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.example.fantasyaudiobooks.data.model.Chapter
+import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -52,49 +53,30 @@ class MediaPlayerViewModel(application: Application) : AndroidViewModel(applicat
 
     var currentChapterTitle: String = ""
 
-    private val sharedPreferences = application.getSharedPreferences("book_progress_prefs", Context.MODE_PRIVATE)
     private var isProgressLoaded = false  // Flag to control saving
     private var bookTitle: String = ""
+
+    private val sharedPreferencesUtils = SharedPreferencesUtils(application.applicationContext)
 
     init {
         _currentChapterIndex.observeForever { chapterIndex ->
             if (isProgressLoaded) {  // Only save if progress has been loaded
                 if (chapterIndex >= 0 && chapterIndex < chapters.size) {
                     currentChapterTitle = chapters[chapterIndex].name
-                    saveProgress(chapterIndex, _currentPosition.value ?: 0)
+                    sharedPreferencesUtils.saveProgress(bookTitle, chapterIndex, _currentPosition.value ?: 0)
                 }
             }
         }
         _currentPosition.observeForever { position ->
             if (isProgressLoaded) {  // Only save if progress has been loaded
                 if (_currentChapterIndex.value != null) {
-                    saveProgress(_currentChapterIndex.value!!, position)
+                    sharedPreferencesUtils.saveProgress(bookTitle, _currentChapterIndex.value!!, position)
                 }
             }
         }
     }
 
-    private fun saveProgress(chapterIndex: Int, position: Int) {
-        if (!isProgressLoaded) return  // Ensure we only save after progress is loaded
-
-        if (position == 0) {
-            Log.d("MediaPlayerViewModel", "Skipped saving progress because position is 0")
-            return
-        }
-
-        Log.d("MediaPlayerViewModel", "Saving progress for $bookTitle: Chapter $chapterIndex, Position $position")
-        val editor = sharedPreferences.edit()
-        editor.putInt("${bookTitle}_chapter_index", chapterIndex)
-        editor.putInt("${bookTitle}_position", position)
-        editor.apply()
-    }
-
-    fun loadProgress(bookTitle: String): Pair<Int, Int> {
-        val chapterIndex = sharedPreferences.getInt("${bookTitle}_chapter_index", 0)
-        val position = sharedPreferences.getInt("${bookTitle}_position", 0)
-        Log.d("MediaPlayerViewModel", "Loaded progress for $bookTitle: Chapter Index=$chapterIndex, Position=$position")
-        return chapterIndex to position
-    }
+    //fun loadProgress(bookTitle: String): Pair<Int, Int> { return sharedPreferencesUtils.loadProgress(bookTitle) }
 
     fun startSleepTimer(minutes: Int) {
         sleepTimer?.cancel()

@@ -11,6 +11,8 @@ import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.repository.BookRepository
 import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
+import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
+
 
 class FavoriteActivity : ComponentActivity() {
 
@@ -22,14 +24,7 @@ class FavoriteActivity : ComponentActivity() {
 
         bookRepository = BookRepository(this)
 
-        // Retrieve the list of favorite books from SharedPreferences
-        val sharedPreferences = getSharedPreferences("favorites_prefs", Context.MODE_PRIVATE)
-        val favoriteBookTitles = sharedPreferences.getStringSet("favorites", emptySet()) ?: emptySet()
-
-        // Map the book titles to actual book objects
-        favoriteBooks = bookRepository.getBookSeries()
-            .flatMap { it.books } // Flatten all books from all series
-            .filter { favoriteBookTitles.contains(it.name) } // Filter only those in favorites
+        favoriteBooks = SharedPreferencesUtils(this@FavoriteActivity).getFavoriteBooks()
 
         setContent {
             FantasyAudiobooksTheme {

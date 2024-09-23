@@ -56,6 +56,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.fantasyaudiobooks.data.model.Book
+import com.example.fantasyaudiobooks.utils.formatTime
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -406,13 +407,4 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
             }
         }
     }
-}
-
-// Helper function to format time
-@SuppressLint("DefaultLocale")
-fun formatTime(milliseconds: Int): String {
-    val totalSeconds = milliseconds / 1000
-    val minutes = totalSeconds / 60
-    val seconds = totalSeconds % 60
-    return String.format("%02d:%02d", minutes, seconds)
 }
