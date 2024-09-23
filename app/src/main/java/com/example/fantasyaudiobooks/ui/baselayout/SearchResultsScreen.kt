@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.components
+package com.example.fantasyaudiobooks.ui.baselayout
 
 import android.content.Intent
 import androidx.compose.foundation.layout.Arrangement
@@ -14,8 +14,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.fantasyaudiobooks.BookDetailsActivity
+import com.example.fantasyaudiobooks.ui.bookdetails.BookDetailsActivity
 import com.example.fantasyaudiobooks.data.model.BookSeries
+import com.example.fantasyaudiobooks.ui.common.BookListItem
 
 
 @Composable

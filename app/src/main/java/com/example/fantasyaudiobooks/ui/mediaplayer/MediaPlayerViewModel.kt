@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.components
+package com.example.fantasyaudiobooks.ui.mediaplayer
 
 import android.app.Application
 import android.content.Context

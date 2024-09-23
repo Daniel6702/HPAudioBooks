@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.screens
+package com.example.fantasyaudiobooks.ui.settings
 
 
 import android.content.Context

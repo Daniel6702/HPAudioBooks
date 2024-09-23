@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.screens
+package com.example.fantasyaudiobooks.ui.booklist
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,17 +18,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.fantasyaudiobooks.data.model.Book
-import com.example.fantasyaudiobooks.ui.components.BookListItem
+import com.example.fantasyaudiobooks.data.model.BookSeries
+import com.example.fantasyaudiobooks.ui.common.BookListItem
 
 @Composable
-fun FavoriteBooksScreen(books: List<Book>, paddingValues: PaddingValues, onBookClick: (Book) -> Unit) {
+fun BookListScreen(series: BookSeries, paddingValues: PaddingValues, onBookClick: (Book) -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(paddingValues)
     ) {
         Text(
-            text = "Favorite Books",
+            text = series.title,
             style = MaterialTheme.typography.headlineMedium,
             modifier = Modifier
                 .fillMaxWidth()
@@ -40,24 +41,13 @@ fun FavoriteBooksScreen(books: List<Book>, paddingValues: PaddingValues, onBookC
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        if (books.isEmpty()) {
-            Text(
-                text = "No favorite books found",
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(16.dp),
-                style = MaterialTheme.typography.bodyMedium,
-                textAlign = TextAlign.Center
-            )
-        } else {
-            LazyColumn(
-                modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                items(books) { book ->
-                    BookListItem(book, onBookClick)
-                }
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            items(series.books) { book ->
+                BookListItem(book, onBookClick)
             }
         }
     }

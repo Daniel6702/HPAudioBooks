@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks
+package com.example.fantasyaudiobooks.ui.mediaplayer
 
 import android.content.Context
 import android.content.Intent
@@ -9,12 +9,11 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Modifier
+import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.components.MediaPlayerViewModel
-import com.example.fantasyaudiobooks.ui.components.ScaffoldWithDrawer
-import com.example.fantasyaudiobooks.ui.screens.MediaPlayerScreen
+import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 
 class MediaPlayerActivity : ComponentActivity() {

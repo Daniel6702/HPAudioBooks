@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.screens
+package com.example.fantasyaudiobooks.ui.home
 
 import android.content.Context
 import androidx.compose.foundation.Image
@@ -20,7 +20,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.fantasyaudiobooks.data.model.BookSeries
-import com.example.fantasyaudiobooks.ui.components.RecentBooksList
 import com.example.fantasyaudiobooks.R
 import com.example.fantasyaudiobooks.data.model.Book
 

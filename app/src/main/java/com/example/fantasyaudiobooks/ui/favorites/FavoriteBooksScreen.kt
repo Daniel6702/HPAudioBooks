@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.screens
+package com.example.fantasyaudiobooks.ui.favorites
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -12,26 +12,23 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.fantasyaudiobooks.data.model.Book
-import com.example.fantasyaudiobooks.data.model.BookSeries
-import com.example.fantasyaudiobooks.ui.components.BookListItem
-import com.example.fantasyaudiobooks.ui.components.MainTopBar
+import com.example.fantasyaudiobooks.ui.common.BookListItem
 
 @Composable
-fun BookListScreen(series: BookSeries, paddingValues: PaddingValues, onBookClick: (Book) -> Unit) {
+fun FavoriteBooksScreen(books: List<Book>, paddingValues: PaddingValues, onBookClick: (Book) -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(paddingValues)
     ) {
         Text(
-            text = series.title,
+            text = "Favorite Books",
             style = MaterialTheme.typography.headlineMedium,
             modifier = Modifier
                 .fillMaxWidth()
@@ -43,13 +40,24 @@ fun BookListScreen(series: BookSeries, paddingValues: PaddingValues, onBookClick
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(16.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
-            items(series.books) { book ->
-                BookListItem(book, onBookClick)
+        if (books.isEmpty()) {
+            Text(
+                text = "No favorite books found",
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(16.dp),
+                style = MaterialTheme.typography.bodyMedium,
+                textAlign = TextAlign.Center
+            )
+        } else {
+            LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                contentPadding = PaddingValues(16.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                items(books) { book ->
+                    BookListItem(book, onBookClick)
+                }
             }
         }
     }

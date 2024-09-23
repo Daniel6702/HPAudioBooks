@@ -1,8 +1,8 @@
-package com.example.fantasyaudiobooks.ui.screens
+package com.example.fantasyaudiobooks.ui.mediaplayer
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
@@ -12,17 +12,22 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.AlertDialog
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.Card
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.DropdownMenuItem
 import androidx.compose.material.ExperimentalMaterialApi
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.ExposedDropdownMenuBox
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.TextField
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.TextFieldDefaults
-import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Forward10
@@ -34,7 +39,6 @@ import androidx.compose.material.icons.filled.SkipPrevious
 import androidx.compose.material.icons.filled.Timer
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -51,9 +55,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.zIndex
 import com.example.fantasyaudiobooks.data.model.Book
-import com.example.fantasyaudiobooks.ui.components.MediaPlayerViewModel
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -110,7 +112,7 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                         .background(color = Color.Black.copy(alpha = 0.7f), shape = CircleShape)
                 ) {
                     Icon(
-                        imageVector = Icons.Default.ArrowBack,
+                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                         contentDescription = "Back",
                         tint = Color.White
                     )
@@ -355,9 +357,9 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                 )
 
                 LinearProgressIndicator(
-                    progress = bookProgress,
+                    progress = { bookProgress },
+                    modifier = Modifier.fillMaxWidth(),
                     color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.fillMaxWidth()
                 )
             }
 
@@ -407,6 +409,7 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
 }
 
 // Helper function to format time
+@SuppressLint("DefaultLocale")
 fun formatTime(milliseconds: Int): String {
     val totalSeconds = milliseconds / 1000
     val minutes = totalSeconds / 60

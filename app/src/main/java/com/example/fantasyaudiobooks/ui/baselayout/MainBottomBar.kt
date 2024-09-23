@@ -1,8 +1,10 @@
-package com.example.fantasyaudiobooks.ui.components
+package com.example.fantasyaudiobooks.ui.baselayout
 
 //noinspection UsingMaterialAndMaterial3Libraries
 import android.content.Intent
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.BottomNavigation
+//import androidx.compose.material.BottomNavigation
 //noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.icons.Icons
@@ -14,9 +16,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import com.example.fantasyaudiobooks.FavoriteActivity
-import com.example.fantasyaudiobooks.MainActivity
-import com.example.fantasyaudiobooks.SettingsActivity
+import com.example.fantasyaudiobooks.ui.favorites.FavoriteActivity
+import com.example.fantasyaudiobooks.ui.home.MainActivity
+import com.example.fantasyaudiobooks.ui.settings.SettingsActivity
 
 @Composable
 fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {

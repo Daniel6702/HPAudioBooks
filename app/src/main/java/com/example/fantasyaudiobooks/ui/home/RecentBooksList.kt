@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.components
+package com.example.fantasyaudiobooks.ui.home
 
 import android.content.Context
 import androidx.compose.foundation.layout.Arrangement
@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.fantasyaudiobooks.data.model.Book
+import com.example.fantasyaudiobooks.ui.common.BookListItem
 
 fun getRecentBooks(context: Context): List<String> {
     val sharedPreferences = context.getSharedPreferences("recent_books_prefs", Context.MODE_PRIVATE)

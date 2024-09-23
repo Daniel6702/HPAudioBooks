@@ -17,13 +17,13 @@
         android:theme="@style/Theme.FantasyAudiobooks"
         tools:targetApi="31">
 
-        <activity android:name=".BookSeriesActivity" />
-        <activity android:name=".BookDetailsActivity" />
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".FavoriteActivity" />
-        <activity android:name=".MediaPlayerActivity" />
+        <activity android:name=".ui.booklist.BookSeriesActivity" />
+        <activity android:name=".ui.bookdetails.BookDetailsActivity" />
+        <activity android:name=".ui.settings.SettingsActivity" />
+        <activity android:name=".ui.favorites.FavoriteActivity" />
+        <activity android:name=".ui.mediaplayer.MediaPlayerActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.FantasyAudiobooks">
@@ -33,11 +33,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".ui.components.NotificationActionReceiver" />
-
-
-
     </application>
-
-
 </manifest>

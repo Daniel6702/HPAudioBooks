@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks
+package com.example.fantasyaudiobooks.ui.booklist
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.components.ScaffoldWithDrawer
-import com.example.fantasyaudiobooks.ui.screens.BookListScreen
+import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.bookdetails.BookDetailsActivity
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 
 class BookSeriesActivity : ComponentActivity() {

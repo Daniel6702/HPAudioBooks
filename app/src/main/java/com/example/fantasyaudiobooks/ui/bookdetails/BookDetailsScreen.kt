@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.screens
+package com.example.fantasyaudiobooks.ui.bookdetails
 
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.foundation.layout.Box
@@ -8,9 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.model.BookSeries
-import com.example.fantasyaudiobooks.ui.components.AudioBook
-import com.example.fantasyaudiobooks.ui.components.BookFrontPage
-import com.example.fantasyaudiobooks.ui.components.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
 
 @Composable
 fun BookDetailsScreen(
