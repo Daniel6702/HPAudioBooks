@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.model.BookSeries
-import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
 
 @Composable
 fun BookDetailsScreen(
@@ -19,7 +19,7 @@ fun BookDetailsScreen(
 ) {
     val backPressedDispatcher = LocalOnBackPressedDispatcherOwner.current?.onBackPressedDispatcher
 
-    ScaffoldWithDrawer(
+    BaseLayout(
         bookSeriesList = bookSeriesList,
         onSeriesClick = onSeriesClick,
         containerColor = MaterialTheme.colorScheme.primary, // Use book's primary color for the bars

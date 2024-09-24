@@ -7,7 +7,7 @@ import androidx.activity.compose.setContent
 import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 
 class SettingsActivity : ComponentActivity() {
@@ -23,7 +23,7 @@ class SettingsActivity : ComponentActivity() {
 
         setContent {
             FantasyAudiobooksTheme {
-                ScaffoldWithDrawer(
+                BaseLayout(
                     bookSeriesList = bookSeriesList,
                     onSeriesClick = { seriesId ->
                         // Handle series click and navigate to BookSeriesActivity

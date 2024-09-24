@@ -7,7 +7,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
 import com.example.fantasyaudiobooks.ui.bookdetails.BookDetailsActivity
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 
@@ -27,7 +27,7 @@ class BookSeriesActivity : ComponentActivity() {
 
         setContent {
             FantasyAudiobooksTheme {
-                ScaffoldWithDrawer(
+                BaseLayout(
                     bookSeriesList = bookSeriesList,
                     onSeriesClick = { seriesId ->
                         // Navigate to the new activity for the selected series

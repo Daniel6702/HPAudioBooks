@@ -23,7 +23,7 @@ import com.example.fantasyaudiobooks.data.model.BookSeries
 import kotlinx.coroutines.launch
 
 @Composable
-fun ScaffoldWithDrawer(
+fun BaseLayout(
     bookSeriesList: List<BookSeries>,
     onSeriesClick: (Int) -> Unit,
     containerColor: Color = MaterialTheme.colorScheme.primary,

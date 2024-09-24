@@ -1,6 +1,5 @@
 package com.example.fantasyaudiobooks.ui.favorites
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +8,7 @@ import com.example.fantasyaudiobooks.ui.bookdetails.BookDetailsActivity
 import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
 
@@ -28,7 +27,7 @@ class FavoriteActivity : ComponentActivity() {
 
         setContent {
             FantasyAudiobooksTheme {
-                ScaffoldWithDrawer(
+                BaseLayout(
                     bookSeriesList = bookRepository.getBookSeries(),
                     onSeriesClick = { seriesId ->
                         // Handle series click and navigate to BookSeriesActivity

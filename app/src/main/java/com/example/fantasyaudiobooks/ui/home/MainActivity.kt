@@ -8,7 +8,7 @@ import com.example.fantasyaudiobooks.ui.bookdetails.BookDetailsActivity
 import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.baselayout.ScaffoldWithDrawer
+import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             FantasyAudiobooksTheme {
-                ScaffoldWithDrawer(
+                BaseLayout(
                     bookSeriesList = bookSeriesList,
                     onSeriesClick = { seriesId ->
                         val intent = Intent(this@MainActivity, BookSeriesActivity::class.java)
