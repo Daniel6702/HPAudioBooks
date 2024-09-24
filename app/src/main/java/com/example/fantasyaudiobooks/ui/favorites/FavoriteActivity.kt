@@ -34,6 +34,7 @@ class FavoriteActivity : ComponentActivity() {
                         val intent = Intent(this@FavoriteActivity, BookSeriesActivity::class.java)
                         intent.putExtra("seriesId", seriesId)
                         startActivity(intent)
+                        finish()
                     }
                 ) { paddingValues ->
                     FavoriteBooksScreen(

@@ -1,6 +1,7 @@
 package com.example.fantasyaudiobooks.ui.baselayout
 
 //noinspection UsingMaterialAndMaterial3Libraries
+import android.app.Activity
 import android.content.Intent
 //noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.BottomNavigation
@@ -23,6 +24,7 @@ import com.example.fantasyaudiobooks.ui.settings.SettingsActivity
 @Composable
 fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {
     val context = LocalContext.current // Get the current context for activity navigation
+    val activity = context as? Activity // Cast the context to an Activity
 
     BottomNavigation(
         backgroundColor = containerColor,
@@ -35,6 +37,7 @@ fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {
                 // Navigate to MainActivity (HomeScreen)
                 val intent = Intent(context, MainActivity::class.java)
                 context.startActivity(intent)
+                activity?.finish() // Finish the current activity
             },
             selectedContentColor = Color.White,
             unselectedContentColor = Color.Gray
@@ -46,6 +49,7 @@ fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {
                 // Navigate to FavoriteActivity
                 val intent = Intent(context, FavoriteActivity::class.java)
                 context.startActivity(intent)
+                activity?.finish() // Finish the current activity
             },
             selectedContentColor = Color.White,
             unselectedContentColor = Color.Gray
@@ -57,6 +61,7 @@ fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {
                 // Navigate to SettingsActivity
                 val intent = Intent(context, SettingsActivity::class.java)
                 context.startActivity(intent)
+                activity?.finish() // Finish the current activity
             },
             selectedContentColor = Color.White,
             unselectedContentColor = Color.Gray

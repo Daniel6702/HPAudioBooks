@@ -21,7 +21,7 @@
         <activity android:name=".ui.bookdetails.BookDetailsActivity" />
         <activity android:name=".ui.settings.SettingsActivity" />
         <activity android:name=".ui.favorites.FavoriteActivity" />
-        <activity android:name=".ui.mediaplayer.MediaPlayerActivity" />
+        <activity android:name=".ui.mediaplayer.MediaPlayerActivity" android:launchMode="singleTop"/>
         <activity
             android:name=".ui.home.MainActivity"
             android:exported="true"

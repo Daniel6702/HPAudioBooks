@@ -44,6 +44,7 @@ class MediaPlayerActivity : ComponentActivity() {
 
                         intent.putExtra("seriesId", seriesId)
                         startActivity(intent)
+                        finish()
                     }
                 ) { paddingValues ->
                     Box(modifier = Modifier.padding(paddingValues)) {

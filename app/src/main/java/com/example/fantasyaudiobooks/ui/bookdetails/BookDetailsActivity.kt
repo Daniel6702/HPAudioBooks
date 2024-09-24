@@ -33,6 +33,7 @@ class BookDetailsActivity : ComponentActivity() {
                             Intent(this@BookDetailsActivity, BookSeriesActivity::class.java)
                         intent.putExtra("seriesId", seriesId)
                         startActivity(intent)
+                        finish()
                     },
                     onListenClick = {
                         val intent =

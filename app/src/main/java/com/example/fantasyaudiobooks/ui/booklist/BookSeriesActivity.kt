@@ -34,6 +34,7 @@ class BookSeriesActivity : ComponentActivity() {
                         val intent = Intent(this@BookSeriesActivity, BookSeriesActivity::class.java)
                         intent.putExtra("seriesId", seriesId)
                         startActivity(intent)
+                        finish()
                     },
                     containerColor = MaterialTheme.colorScheme.primary // Or customize the color
                 ) { paddingValues ->

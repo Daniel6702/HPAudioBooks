@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
                         val intent = Intent(this@MainActivity, BookSeriesActivity::class.java)
                         intent.putExtra("seriesId", seriesId)
                         startActivity(intent)
+                        finish()
                     }
                 ) { paddingValues ->
                     HomeScreen(

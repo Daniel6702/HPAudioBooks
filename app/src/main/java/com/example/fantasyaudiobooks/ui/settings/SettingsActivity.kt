@@ -30,6 +30,7 @@ class SettingsActivity : ComponentActivity() {
                         val intent = Intent(this@SettingsActivity, BookSeriesActivity::class.java)
                         intent.putExtra("seriesId", seriesId)
                         startActivity(intent)
+                        finish()
                     }
                 ) { paddingValues ->
                     SettingScreen(paddingValues = paddingValues)
