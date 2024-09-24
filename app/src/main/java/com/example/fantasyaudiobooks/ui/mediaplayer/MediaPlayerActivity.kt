@@ -12,55 +12,36 @@ import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
+import com.example.fantasyaudiobooks.ui.common.BaseActivity
 import com.example.fantasyaudiobooks.ui.common.navlayout.BaseLayout
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
 
-class MediaPlayerActivity : ComponentActivity() {
+class MediaPlayerActivity : BaseActivity() {
 
-    private lateinit var bookRepository: BookRepository
-    private lateinit var bookSeriesList: List<BookSeries>
     private lateinit var selectedBook: Book
     private val viewModel: MediaPlayerViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        bookRepository = BookRepository(this)
-        bookSeriesList = bookRepository.getBookSeries()
         selectedBook = intent.getParcelableExtra("selectedBook")!!
 
-        val sharedPreferencesUtils = SharedPreferencesUtils(this@MediaPlayerActivity)
+        val sharedPreferencesUtils = SharedPreferencesUtils(this)
         sharedPreferencesUtils.saveToRecentBooks(selectedBook.name)
         val (chapterIndex, position) = sharedPreferencesUtils.loadProgress(selectedBook.name)
 
-        setContent {
-            FantasyAudiobooksTheme {
-                BaseLayout(
-                    bookSeriesList = bookSeriesList,
-                    onSeriesClick = { seriesId ->
-                        val intent =
-                            Intent(this@MediaPlayerActivity, BookSeriesActivity::class.java)
-
-                        intent.putExtra("seriesId", seriesId)
-                        startActivity(intent)
-                        finish()
-                    }
-                ) { paddingValues ->
-                    Box(modifier = Modifier.padding(paddingValues)) {
-                        MediaPlayerScreen(
-                            book = selectedBook,
-                            viewModel = viewModel,
-                            onBackClick = { finish() },
-                            initialChapterIndex = chapterIndex,
-                            initialPosition = position
-                        )
-                    }
-                }
+        setBaseContent { paddingValues ->
+            Box(modifier = Modifier.padding(paddingValues)) {
+                MediaPlayerScreen(
+                    book = selectedBook,
+                    viewModel = viewModel,
+                    onBackClick = { finish() },
+                    initialChapterIndex = chapterIndex,
+                    initialPosition = position
+                )
             }
         }
-
     }
 }
-
 

@@ -9,15 +9,16 @@ import com.example.fantasyaudiobooks.ui.common.BaseActivity
 class BookSeriesActivity : BaseActivity() {
 
     private lateinit var selectedSeries: BookSeries
+    private var seriesId: Int = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val seriesId = intent.getIntExtra("seriesId", -1)
+        seriesId = intent.getIntExtra("seriesId", -1)
         selectedSeries = bookSeriesList.find { it.id == seriesId }
             ?: throw IllegalArgumentException("Invalid series ID")
 
-        setBaseContent { paddingValues ->
+        setBaseContent(currentSeriesId = seriesId) { paddingValues ->
             BookListScreen(
                 series = selectedSeries,
                 paddingValues = paddingValues,

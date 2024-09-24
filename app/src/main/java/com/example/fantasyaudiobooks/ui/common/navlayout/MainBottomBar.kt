@@ -1,12 +1,9 @@
 package com.example.fantasyaudiobooks.ui.common.navlayout
 
-//noinspection UsingMaterialAndMaterial3Libraries
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
-//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.BottomNavigation
-//import androidx.compose.material.BottomNavigation
-//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
@@ -19,12 +16,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.fantasyaudiobooks.ui.favorites.FavoriteActivity
 import com.example.fantasyaudiobooks.ui.home.MainActivity
+import com.example.fantasyaudiobooks.ui.mediaplayer.MediaPlayerActivity
 import com.example.fantasyaudiobooks.ui.settings.SettingsActivity
 
 @Composable
 fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {
-    val context = LocalContext.current // Get the current context for activity navigation
-    val activity = context as? Activity // Cast the context to an Activity
+    val context = LocalContext.current
+    val activity = context as? Activity
 
     BottomNavigation(
         backgroundColor = containerColor,
@@ -32,39 +30,38 @@ fun MainBottomBar(containerColor: Color = MaterialTheme.colorScheme.primary) {
     ) {
         BottomNavigationItem(
             icon = { Icon(Icons.Default.Home, contentDescription = "Home") },
-            selected = false, // Manage selection state as needed
-            onClick = {
-                // Navigate to MainActivity (HomeScreen)
-                val intent = Intent(context, MainActivity::class.java)
-                context.startActivity(intent)
-                activity?.finish() // Finish the current activity
-            },
+            selected = false,
+            onClick = { navigateIfNeeded(context, activity, MainActivity::class.java) },
             selectedContentColor = Color.White,
             unselectedContentColor = Color.Gray
         )
         BottomNavigationItem(
             icon = { Icon(Icons.Default.Favorite, contentDescription = "Favorites") },
             selected = false,
-            onClick = {
-                // Navigate to FavoriteActivity
-                val intent = Intent(context, FavoriteActivity::class.java)
-                context.startActivity(intent)
-                activity?.finish() // Finish the current activity
-            },
+            onClick = { navigateIfNeeded(context, activity, FavoriteActivity::class.java) },
             selectedContentColor = Color.White,
             unselectedContentColor = Color.Gray
         )
         BottomNavigationItem(
             icon = { Icon(Icons.Default.Settings, contentDescription = "Settings") },
             selected = false,
-            onClick = {
-                // Navigate to SettingsActivity
-                val intent = Intent(context, SettingsActivity::class.java)
-                context.startActivity(intent)
-                activity?.finish() // Finish the current activity
-            },
+            onClick = { navigateIfNeeded(context, activity, SettingsActivity::class.java) },
             selectedContentColor = Color.White,
             unselectedContentColor = Color.Gray
         )
+    }
+}
+
+fun navigateIfNeeded(
+    context: Context,
+    currentActivity: Activity?,
+    targetActivityClass: Class<out Activity>
+) {
+    if (currentActivity == null || currentActivity::class.java != targetActivityClass) {     // Check if the current activity is not the target activity
+        val intent = Intent(context, targetActivityClass)
+        context.startActivity(intent)
+        if (currentActivity is MediaPlayerActivity) {         // Only finish if the current activity is MediaPlayerActivity
+            currentActivity.finish()
+        }
     }
 }

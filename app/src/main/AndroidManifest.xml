@@ -17,10 +17,10 @@
         android:theme="@style/Theme.FantasyAudiobooks"
         tools:targetApi="31">
 
-        <activity android:name=".ui.booklist.BookSeriesActivity" />
-        <activity android:name=".ui.bookdetails.BookDetailsActivity" />
-        <activity android:name=".ui.settings.SettingsActivity" />
-        <activity android:name=".ui.favorites.FavoriteActivity" />
+        <activity android:name=".ui.booklist.BookSeriesActivity"/>
+        <activity android:name=".ui.bookdetails.BookDetailsActivity" android:launchMode="singleTop"/>
+        <activity android:name=".ui.settings.SettingsActivity" android:launchMode="singleTop"/>
+        <activity android:name=".ui.favorites.FavoriteActivity" android:launchMode="singleTop"/>
         <activity android:name=".ui.mediaplayer.MediaPlayerActivity" android:launchMode="singleTop"/>
         <activity
             android:name=".ui.home.MainActivity"

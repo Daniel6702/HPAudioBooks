@@ -15,7 +15,7 @@ fun ClearDataDialog(
         AlertDialog(
             onDismissRequest = { onDismiss() },
             title = { Text(text = "Confirm Clear Data") },
-            text = { Text(text = "Are you sure you want to clear all data? This action cannot be undone.") },
+            text = { Text(text = "Are you sure you want to clear all data? This action cannot be undone. [Recent/Favorite books, progress]") },
             confirmButton = {
                 TextButton(onClick = { onConfirm() }) {
                     Text("Yes")
