@@ -6,7 +6,7 @@ Welcome to **Fantasy Audiobooks**, your go-to app for enjoying fantasy audiobook
 
 Get the latest version of the app by downloading the APK from the link below:
 
-[**Download FantasyAudiobooks v0.0.1-alpha**](https://github.com/Daniel6702/HPAudioBooks/releases/tag/FantasyAudiobooks.v0.0.1-alpha)
+[**Download FantasyAudiobooks v0.0.1-alpha**](https://github.com/Daniel6702/HPAudioBooks/releases/tag/FantasyAudiobooks.v0.0.2-alpha)
 
 ## Screenshots
 
