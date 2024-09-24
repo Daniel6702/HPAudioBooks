@@ -12,7 +12,7 @@ import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.Book
 import com.example.fantasyaudiobooks.data.model.BookSeries
 import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
+import com.example.fantasyaudiobooks.ui.common.navlayout.BaseLayout
 import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 import com.example.fantasyaudiobooks.utils.SharedPreferencesUtils
 

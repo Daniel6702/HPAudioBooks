@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.baselayout
+package com.example.fantasyaudiobooks.ui.common.navlayout
 
 //noinspection UsingMaterialAndMaterial3Libraries
 import android.app.Activity

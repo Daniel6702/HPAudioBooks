@@ -2,47 +2,37 @@ package com.example.fantasyaudiobooks.ui.bookdetails
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
 import com.example.fantasyaudiobooks.data.model.Book
-import com.example.fantasyaudiobooks.data.model.BookSeries
-import com.example.fantasyaudiobooks.data.repository.BookRepository
+import com.example.fantasyaudiobooks.ui.common.BaseActivity
 import com.example.fantasyaudiobooks.ui.mediaplayer.MediaPlayerActivity
-import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
 
-class BookDetailsActivity : ComponentActivity() {
+class BookDetailsActivity : BaseActivity() {
 
     private lateinit var selectedBook: Book
-    private lateinit var bookSeriesList: List<BookSeries>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         selectedBook = intent.getParcelableExtra("selectedBook")!!
 
-        bookSeriesList = BookRepository(this).getBookSeries()
-
-        setContent {
-            FantasyAudiobooksTheme {
-                BookDetailsScreen(
-                    book = selectedBook,
-                    bookSeriesList = bookSeriesList,
-                    onSeriesClick = { seriesId ->
-                        val intent =
-                            Intent(this@BookDetailsActivity, BookSeriesActivity::class.java)
-                        intent.putExtra("seriesId", seriesId)
-                        startActivity(intent)
-                        finish()
-                    },
-                    onListenClick = {
-                        val intent =
-                            Intent(this@BookDetailsActivity, MediaPlayerActivity::class.java)
-                        intent.putExtra("selectedBook", selectedBook)
-                        startActivity(intent)
-                    }
-                )
-            }
+        setBaseContent { paddingValues ->
+            BookDetailsScreen(
+                book = selectedBook,
+                bookSeriesList = bookSeriesList,
+                paddingValues = paddingValues,
+                onSeriesClick = { seriesId ->
+                    val intent = Intent(this, BookSeriesActivity::class.java)
+                    intent.putExtra("seriesId", seriesId)
+                    startActivity(intent)
+                    finish()
+                },
+                onListenClick = {
+                    val intent = Intent(this, MediaPlayerActivity::class.java)
+                    intent.putExtra("selectedBook", selectedBook)
+                    startActivity(intent)
+                }
+            )
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.baselayout
+package com.example.fantasyaudiobooks.ui.common.navlayout
 
 import android.content.Intent
 import androidx.compose.foundation.layout.Arrangement

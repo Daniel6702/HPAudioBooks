@@ -1,4 +1,4 @@
-package com.example.fantasyaudiobooks.ui.baselayout
+package com.example.fantasyaudiobooks.ui.common.navlayout
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

@@ -1,41 +1,15 @@
 package com.example.fantasyaudiobooks.ui.settings
 
-import android.content.Intent
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import com.example.fantasyaudiobooks.ui.booklist.BookSeriesActivity
-import com.example.fantasyaudiobooks.data.model.BookSeries
-import com.example.fantasyaudiobooks.data.repository.BookRepository
-import com.example.fantasyaudiobooks.ui.baselayout.BaseLayout
-import com.example.fantasyaudiobooks.ui.theme.FantasyAudiobooksTheme
+import com.example.fantasyaudiobooks.ui.common.BaseActivity
 
-class SettingsActivity : ComponentActivity() {
-
-    private lateinit var bookRepository: BookRepository
-    private lateinit var bookSeriesList: List<BookSeries>
+class SettingsActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        bookRepository = BookRepository(this)
-        bookSeriesList = bookRepository.getBookSeries()
-
-        setContent {
-            FantasyAudiobooksTheme {
-                BaseLayout(
-                    bookSeriesList = bookSeriesList,
-                    onSeriesClick = { seriesId ->
-                        // Handle series click and navigate to BookSeriesActivity
-                        val intent = Intent(this@SettingsActivity, BookSeriesActivity::class.java)
-                        intent.putExtra("seriesId", seriesId)
-                        startActivity(intent)
-                        finish()
-                    }
-                ) { paddingValues ->
-                    SettingScreen(paddingValues = paddingValues)
-                }
-            }
+        setBaseContent { paddingValues ->
+            SettingScreen(paddingValues = paddingValues)
         }
     }
 }
