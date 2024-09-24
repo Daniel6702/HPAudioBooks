@@ -13,10 +13,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Color.Red,
-    secondary = PurpleGrey80,
-    tertiary = Pink80,
-
+    primary = Color(0xFF3A506B), // A deep blue-gray for primary elements
+    secondary = Color(0xFF6F7D7A), // A dark taupe for secondary elements
+    tertiary = Color(0xFF5E7267), // A muted, dark green for tertiary elements
+    background = Color(0xFF1C1C1C), // A very dark gray for background
+    surface = Color(0xFF2A2D2E), // A dark gray with a slight blue tint for surfaces
+    onPrimary = Color.White, // White text on primary
+    onSecondary = Color(0xFFDADADA), // Light gray text on secondary
+    onTertiary = Color.White, // White text on tertiary
+    onBackground = Color(0xFFDADADA), // Light gray text on dark background
+    onSurface = Color(0xFFDADADA) // Light gray text on dark surface
 )
 
 private val LightColorScheme = lightColorScheme(

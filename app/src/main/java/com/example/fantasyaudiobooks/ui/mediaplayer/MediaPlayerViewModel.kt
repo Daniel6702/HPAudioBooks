@@ -110,8 +110,8 @@ class MediaPlayerViewModel(application: Application) : AndroidViewModel(applicat
         val currentPosition = _currentPosition.value ?: 0
         val duration = _duration.value ?: 1 // Avoid division by zero
 
-        val chapterProgress = currentPosition.toFloat() / duration
-        val bookProgress = (chapterIndex + chapterProgress) / totalChapters
+        val chapterProgress = (currentPosition.toFloat() / duration).takeIf { !it.isNaN() } ?: 0f
+        val bookProgress = ((chapterIndex + chapterProgress) / totalChapters).takeIf { !it.isNaN() } ?: 0f
         _bookProgressFraction.postValue(bookProgress)
     }
 

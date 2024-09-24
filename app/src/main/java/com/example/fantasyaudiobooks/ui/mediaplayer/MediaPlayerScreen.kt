@@ -149,7 +149,8 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
                 shape = MaterialTheme.shapes.medium,
-                elevation = 4.dp
+                elevation = 4.dp,
+                backgroundColor = MaterialTheme.colorScheme.surface // Set the background color here
             ) {
                 Column(
                     modifier = Modifier
@@ -174,9 +175,9 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                     } else {
                         Spacer(modifier = Modifier.height(16.dp))
                         Slider(
-                            value = currentPosition.toFloat(),
+                            value = currentPosition.toFloat().takeIf { !it.isNaN() } ?: 0f,
                             onValueChange = { viewModel.seekTo(it.toInt()) },
-                            valueRange = 0f..duration.toFloat(),
+                            valueRange = 0f..(duration.toFloat().takeIf { !it.isNaN() } ?: 1f),
                             colors = SliderDefaults.colors(
                                 thumbColor = MaterialTheme.colorScheme.primary,
                                 activeTrackColor = MaterialTheme.colorScheme.primary
@@ -283,11 +284,14 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                             },
                             colors = TextFieldDefaults.textFieldColors(
                                 backgroundColor = MaterialTheme.colorScheme.surface,
-                                focusedIndicatorColor = MaterialTheme.colorScheme.primary
+                                focusedIndicatorColor = MaterialTheme.colorScheme.primary,
+                                textColor = MaterialTheme.colorScheme.onSurface
                             ),
                             modifier = Modifier.fillMaxSize() // Fills the available height
                         )
                         ExposedDropdownMenu(
+                            modifier = Modifier
+                                .background(MaterialTheme.colorScheme.surface),
                             expanded = speedExpanded,
                             onDismissRequest = { speedExpanded = false }
                         ) {
@@ -321,13 +325,16 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                             },
                             colors = TextFieldDefaults.textFieldColors(
                                 backgroundColor = MaterialTheme.colorScheme.surface,
-                                focusedIndicatorColor = MaterialTheme.colorScheme.primary
+                                focusedIndicatorColor = MaterialTheme.colorScheme.primary,
+                                textColor = MaterialTheme.colorScheme.onSurface
                             ),
                             modifier = Modifier.fillMaxSize() // Fills the available height
                         )
                         ExposedDropdownMenu(
+                            modifier = Modifier
+                                .background(MaterialTheme.colorScheme.surface),
                             expanded = chapterExpanded,
-                            onDismissRequest = { chapterExpanded = false }
+                            onDismissRequest = { chapterExpanded = false },
                         ) {
                             chapters.forEachIndexed { index, chapter ->
                                 DropdownMenuItem(onClick = {
@@ -358,7 +365,7 @@ fun MediaPlayerScreen(book: Book, viewModel: MediaPlayerViewModel, onBackClick: 
                 )
 
                 LinearProgressIndicator(
-                    progress = { bookProgress },
+                    progress = bookProgress.takeIf { !it.isNaN() } ?: 0f,
                     modifier = Modifier.fillMaxWidth(),
                     color = MaterialTheme.colorScheme.primary,
                 )
